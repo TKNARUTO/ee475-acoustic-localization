@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-02",
+  "preserved_core_files": {
+    "main.c": "5c771e9557167ca79002317b3cf1f7b37585fd75aa3fb1c7e4c01d5adcfee46a",
+    "sen0325_i2s.pio": "485286e52eb8bb51cb62d9f20d6d269d9f551ec7ffc65389c77d9cfd111a3681",
+    "array_geometry.json": "728c50ba75dcb3c1cacbc41293b6043d5147e35358e3a1055bcc013f60e92192",
+    "beacon_dsp.py": "7b6524e04a963ae025b4b73babd04608adaf49f2d1b5aa2c59ac77ee07bf7eb1",
+    "highband_dsp.py": "6d4ae101e3db742ff5f7be38ca0ea3f05184b1e5156ad2f57695ff5ebcad5b4b",
+    "arrival_dsp.py": "1051a0d190818bd6b1b2b371ded0bb35193c220800a56c2c59b49338b06ca6fa",
+    "joint_delay_dsp.py": "c35033785a131f68388aaa9ed95290b7ba79897cb1cce3cd1306d49ed012adc6",
+    "firmware/sen0325_setup-RAM.uf2": "76470847618d44065001eba3615cf49e19e858a27839dd09543700e7d8471151",
+    "firmware/sen0325_setup-RAM.elf": "851e48099ac773b43a465c023c0d7f791b0e6fc139cd9f7f9074a71d0d79401b"
+  },
+  "legacy_files_unchanged": 529,
+  "waveform_changed": false,
+  "gpio_changed": false,
+  "angle_jump_veto_added": false,
+  "phone_device_test": false
+}

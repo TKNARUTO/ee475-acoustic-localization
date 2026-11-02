@@ -1,0 +1,25 @@
+; Four parallel stereo I2S inputs, 24 significant bits in each 32-bit slot.
+; IN pins: GP6..GP9 = MIC_D0..MIC_D3.
+; Side-set bit 0: GP10 BCLK. Side-set bit 1: GP11 WS.
+; 128 PIO cycles/frame -> 48 kHz at a 6.144 MHz state-machine clock.
+; WS changes on the falling edge BEFORE the previous slot's last bit.
+; This gives the required one-bit I2S delay and positive WS setup/hold time.
+.program sen0325_i2s
+.side_set 2
+    set x, 29           side 0b00
+.wrap_target
+left_bits:
+    in pins, 4          side 0b01
+    jmp x-- left_bits   side 0b00
+    in pins, 4          side 0b01
+    set x, 29           side 0b10
+    in pins, 4          side 0b11
+    nop                 side 0b10
+right_bits:
+    in pins, 4          side 0b11
+    jmp x-- right_bits  side 0b10
+    in pins, 4          side 0b11
+    set x, 29           side 0b00
+    in pins, 4          side 0b01
+    nop                 side 0b00
+.wrap

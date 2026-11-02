@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-11-02T08:35:48.819588+00:00",
+  "desktop": "RX4",
+  "checks": [
+    {
+      "name": "active_python_syntax",
+      "passed": true
+    },
+    {
+      "name": "launcher_source_check",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"checkpoint\": \"RX4\",\n  \"files_checked\": 5,\n  \"joint_source_sha256\": \"c35033785a131f68388aaa9ed95290b7ba79897cb1cce3cd1306d49ed012adc6\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "ram_only_image",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "{\n  \"path\": \"C:\\\\Users\\\\33296\\\\Desktop\\\\\\u5de5\\u7a0b\\u9879\\u76ee\\\\EE475\\\\SEN0325-Pico-Setup\\\\firmware\\\\sen0325_setup-RAM.uf2\",\n  \"sha256\": \"76470847618d44065001eba3615cf49e19e858a27839dd09543700e7d8471151\",\n  \"blocks\": 428,\n  \"start\": \"0x20000000\",\n  \"end_exclusive\": \"0x2001ac00\",\n  \"sram_only\": true,\n  \"flash_payload_blocks\": 0\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "receive_only_controls",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"scan_only_controls\": true,\n  \"no_playback_implementation\": true,\n  \"receiver_selection_keeps_scan_state\": true,\n  \"unknown_profile_rejected\": true,\n  \"late_burst_after_stop_is_discarded\": true,\n  \"test_audio_emitted\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "packet_faults",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"checks\": [\n    \"complete_binary_payload_fragment_57344\",\n    \"complete_binary_payload_fragment_4096\",\n    \"complete_binary_payload_fragment_2048\",\n    \"short_payload\",\n    \"crc_mismatch\",\n    \"trailer_mismatch\",\n    \"trailer_timeout\",\n    \"header_timeout\",\n    \"header_format\",\n    \"partial_header_and_trailer_accumulated\",\n    \"cancellation_and_timeout_restoration\",\n    \"resynchronize_after_binary_remainder\",\n    \"lost_first_stop_ack_is_retried\",\n    \"missing_stop_ack_is_bounded_and_rejected\"\n  ],\n  \"hardware_test\": false,\n  \"audio_played\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "20khz_model",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"maximum_simulated_error_deg\": 12.967,\n  \"median_processing_ms\": 13.65,\n  \"maximum_processing_ms\": 130.97\n}\n",
+      "stderr": ""
+    }
+  ],
+  "firmware_sha256": "76470847618d44065001eba3615cf49e19e858a27839dd09543700e7d8471151",
+  "not_run": [
+    "private raw recording replay",
+    "physical Pico scan",
+    "known-angle/range validation",
+    "Android physical device test"
+  ]
+}

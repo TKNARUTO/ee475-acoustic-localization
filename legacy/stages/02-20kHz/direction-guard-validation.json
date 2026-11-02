@@ -1,0 +1,22 @@
+{
+  "stage": "HF2",
+  "checks": {
+    "initial_stable_direction_accepted": true,
+    "180_degree_jump_suppressed": true,
+    "rejected_jump_clears_ui_arrow": true,
+    "deliberate_new_position_can_reacquire": true,
+    "single_sample_calibration_rejected": true,
+    "front_calibration_uses_circular_mean": true,
+    "unstable_calibration_rejected": true,
+    "failed_calibration_preserves_saved_heading": true
+  },
+  "jump_reasons": [
+    "direction_jump_rejected",
+    "direction_jump_rejected",
+    "direction_jump_rejected",
+    "direction_jump_rejected",
+    "direction_jump_rejected",
+    "direction_jump_rejected"
+  ],
+  "passed": true
+}

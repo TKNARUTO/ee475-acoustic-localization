@@ -1,0 +1,14 @@
+{
+  "SEN0325-Pico-Setup/highband_dsp.py": "d9ac94d2210e4f47e26cc72c3dd3e8a7619dc5c980148ff4576ff574f2da73e9",
+  "SEN0325-Pico-Setup/arrival_dsp.py": "1051a0d190818bd6b1b2b371ded0bb35193c220800a56c2c59b49338b06ca6fa",
+  "SEN0325-Pico-Setup/beacon_dsp.py": "7b6524e04a963ae025b4b73babd04608adaf49f2d1b5aa2c59ac77ee07bf7eb1",
+  "SEN0325-Pico-Setup/direction_diagnostics.py": "3b582804e041adf7c1091296f46d357564e8cfe0f8f47fd3b82bb846512d10a4",
+  "SEN0325-Pico-Setup/sen0325_launcher.py": "5ca4db9dadd9a2fdb5ca4dd728b8a5e21eabd119969b684801b85e955f36dc6b",
+  "SEN0325-Pico-Setup/sen0325_simple_view.py": "b7195480d53084d92304c54c0446fdd5204d5a02b49255537dc350a68db90ce8",
+  "SEN0325-Pico-Setup/array_geometry.json": "728c50ba75dcb3c1cacbc41293b6043d5147e35358e3a1055bcc013f60e92192",
+  "SEN0325-Pico-Setup/firmware/sen0325_setup-RAM.uf2": "76470847618d44065001eba3615cf49e19e858a27839dd09543700e7d8471151",
+  "SEN0325-Pico-Setup/firmware/sen0325_setup-RAM.elf": "851e48099ac773b43a465c023c0d7f791b0e6fc139cd9f7f9074a71d0d79401b",
+  "README.md": "f71b3e86f39b88c5cc33a7ef48eb7619ef61a085506a3f9d676c12a6d5000df9",
+  "tests/README.md": "904dcef0b2f53344b85ad4954cc45e0aa3edb71ba235b114cfb709e6f728e353",
+  "reports/README.txt": "20415a03d951ff09df88d1cf0f118c30c9e6e0f529de7a68f33a6a6ce0ff9558"
+}

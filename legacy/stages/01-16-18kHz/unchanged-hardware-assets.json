@@ -1,0 +1,6 @@
+{
+  "main.c": "308ef684bf2906912274bfe43ea0913e2db39e841be3a73f7b52fb3a6f674c46",
+  "runtime_tuning.py": "8a7a3bc996fe7bb6c3af95570198e543449ab337d6967fbd4e3b06a3123fecf6",
+  "array_geometry.json": "728c50ba75dcb3c1cacbc41293b6043d5147e35358e3a1055bcc013f60e92192",
+  "firmware/sen0325_setup-RAM.uf2": "b10c5203c44cb7dff7ba48007f787e13fe8327fa6068835a0d74e92aa9e4350c"
+}

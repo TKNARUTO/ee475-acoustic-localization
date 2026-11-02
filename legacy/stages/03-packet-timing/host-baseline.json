@@ -1,0 +1,97 @@
+{
+  "log": "C:\\Users\\33296\\Desktop\\\u5de5\u7a0b\u9879\u76ee\\EE475\\SEN0325-Pico-Setup\\logs\\launcher-20261027-164927-284296.txt",
+  "packets": 145,
+  "steady_packets": 144,
+  "errors": [],
+  "first_packet": {
+    "request_monotonic": 935096.734,
+    "read_strategy": "blocking",
+    "expected_bytes": 57344,
+    "received_bytes": 57344,
+    "payload_read_calls": 1,
+    "empty_payload_reads": 0,
+    "command_write_ms": 0.0,
+    "seq": 1,
+    "header_wait_ms": 609.0,
+    "expected_crc32": "ada65c62",
+    "in_waiting_after_header": 2945,
+    "payload_read_ms": 94.0,
+    "payload_read_sizes": [
+      57344
+    ],
+    "payload_read_durations_ms": [
+      94.0
+    ],
+    "crc_check_ms": 0.0,
+    "actual_crc32": "ada65c62",
+    "trailer": "AUDIO_END seq=1",
+    "trailer_wait_ms": 0.0,
+    "packet_done_monotonic": 935097.437,
+    "packet_total_ms": 703.0,
+    "wall_time": "2026-10-27T16:49:28.620397-07:00"
+  },
+  "seq_discontinuities": 0,
+  "dropped_max": 0,
+  "reasons": {
+    "beacon_not_detected": 145
+  },
+  "metrics_ms": {
+    "command_write_ms": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 16.0
+    },
+    "header_wait_ms": {
+      "median": 109.0,
+      "p95": 125.0,
+      "max": 125.0
+    },
+    "payload_read_ms": {
+      "median": 94.0,
+      "p95": 110.0,
+      "max": 110.0
+    },
+    "crc_check_ms": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "trailer_wait_ms": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 16.0
+    },
+    "packet_total_ms": {
+      "median": 203.0,
+      "p95": 219.0,
+      "max": 219.0
+    },
+    "dsp_ms": {
+      "median": 0.0,
+      "p95": 16.0,
+      "max": 63.0
+    },
+    "postprocess_ms": {
+      "median": 15.0,
+      "p95": 16.0,
+      "max": 93.0
+    },
+    "request_to_queue_ms": {
+      "median": 219.0,
+      "p95": 235.0,
+      "max": 859.0
+    },
+    "queue_to_draw_ms": null,
+    "request_to_draw_ms": null
+  },
+  "request_interval_ms": {
+    "median": 234.0,
+    "p95": 250.0,
+    "max": 875.0
+  },
+  "read_sizes": {
+    "(57344,)": 145
+  },
+  "render_count": 0,
+  "worker_stopped": true
+}

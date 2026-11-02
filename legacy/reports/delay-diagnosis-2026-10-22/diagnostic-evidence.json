@@ -1,0 +1,366 @@
+{
+  "scope": "Diagnostic snapshot only; no new algorithm or firmware change.",
+  "warning": "These sessions have different uncontrolled phone positions/volumes and playback intervals. Rates are not a controlled A/B accuracy comparison.",
+  "sessions": [
+    {
+      "label": "before_new_vetoes",
+      "log": "launcher-20261022-175059-237468.txt",
+      "snapshot_bytes": 3872316,
+      "snapshot_sha256": "643330fd261c4531356d7a7d8893b68732ea0feb7153a9074275d6c1e362861c",
+      "incomplete_event_lines_ignored": 0,
+      "windows_20khz": 2962,
+      "reasons": {
+        "beacon_not_detected": 1444,
+        "group_delay_inconsistent": 919,
+        "confirming_beacon_direction": 270,
+        "estimated": 324,
+        "clipping": 5
+      },
+      "code_matched_windows": 1513,
+      "matched_reasons": {
+        "group_delay_inconsistent": 919,
+        "confirming_beacon_direction": 270,
+        "estimated": 324
+      },
+      "strong_code_windows": 1076,
+      "strong_reasons": {
+        "group_delay_inconsistent": 508,
+        "confirming_beacon_direction": 257,
+        "estimated": 311
+      },
+      "valid_windows": 324,
+      "valid_sources": {
+        "strong_code_arrival_consensus": 218,
+        "primary_complex_delay": 106
+      },
+      "packet_headers": 2965,
+      "max_dropped": 0,
+      "max_rx_stall": 0,
+      "error_lines": [
+        "ERROR: Raw packet length/CRC check failed; bearing suppressed.",
+        "ERROR: Raw packet length/CRC check failed; bearing suppressed."
+      ],
+      "sequence_regressions": 0,
+      "calibration_events": [],
+      "capture_cycle_steady_ms": {
+        "count": 2959,
+        "p05": 198.14,
+        "median": 214.74,
+        "p95": 227.381,
+        "maximum": 244.14
+      },
+      "strong_code_cycle_steady_ms": {
+        "count": 1075,
+        "p05": 208.678,
+        "median": 219.52,
+        "p95": 230.335,
+        "maximum": 244.14
+      },
+      "dsp_ms_all": {
+        "count": 2962,
+        "p05": 4.46,
+        "median": 9.37,
+        "p95": 17.398,
+        "maximum": 29.01
+      },
+      "dsp_ms_strong_code": {
+        "count": 1076,
+        "p05": 9.87,
+        "median": 15.09,
+        "p95": 19.402,
+        "maximum": 29.0
+      },
+      "device_io_wait_before_dsp_ms": {
+        "count": 2959,
+        "p05": 192.567,
+        "median": 203.79,
+        "p95": 214.181,
+        "maximum": 226.02
+      },
+      "steady_estimate_interval_ms": {
+        "count": 2959,
+        "p05": 203.0,
+        "median": 234.0,
+        "p95": 250.0,
+        "maximum": 266.0
+      },
+      "startup_or_restart_cycles_ms": [
+        763.05,
+        738.87,
+        743.8
+      ],
+      "pico_unpack_max_per_1024_frames_us": {
+        "count": 2965,
+        "p05": 3850.0,
+        "median": 3851.0,
+        "p95": 3856.0,
+        "maximum": 3902.0
+      },
+      "primary_reject_subtypes": {
+        "geometry_mismatch": 917,
+        "insufficient_group_delays": 2
+      },
+      "overlapping_threshold_violations": {
+        "retained_pair_residual_over_1_sample": 900,
+        "all_pair_residual_over_1_5_samples": 900,
+        "projection_outside_0_25_to_1_3": 71,
+        "insufficient_group_delays": 2
+      },
+      "strong_code_rejection_example": {
+        "wall_time": "2026-10-22T17:52:19.206324-07:00",
+        "reason": "group_delay_inconsistent",
+        "code_channels": 7,
+        "code_pnr_db": 34.59,
+        "band_level_dbfs": -49.5,
+        "median_pair_coherence": 0.958,
+        "group_delay_pairs": 20,
+        "group_delay_rms_samples": 2.3869,
+        "all_pair_rms_samples": 2.8083,
+        "horizontal_projection": 0.5236,
+        "group_delay_reason": "geometry_mismatch",
+        "capture_cycle_ms": 216.29,
+        "processing_ms": 12.57
+      },
+      "opposite_new_bearings_within_15s": [
+        {
+          "time_before": "2026-10-22T17:52:27.911851-07:00",
+          "time_after": "2026-10-22T17:52:30.004091-07:00",
+          "gap_s": 2.094,
+          "raw_change_deg": 124.16,
+          "source_before": "strong_code_arrival_consensus",
+          "source_after": "strong_code_arrival_consensus"
+        },
+        {
+          "time_before": "2026-10-22T17:52:30.004091-07:00",
+          "time_after": "2026-10-22T17:52:40.111723-07:00",
+          "gap_s": 10.109,
+          "raw_change_deg": 129.23,
+          "source_before": "strong_code_arrival_consensus",
+          "source_after": "primary_complex_delay"
+        },
+        {
+          "time_before": "2026-10-22T17:58:53.962306-07:00",
+          "time_after": "2026-10-22T17:58:59.008260-07:00",
+          "gap_s": 5.047,
+          "raw_change_deg": 124.84,
+          "source_before": "strong_code_arrival_consensus",
+          "source_after": "strong_code_arrival_consensus"
+        }
+      ]
+    },
+    {
+      "label": "with_new_vetoes",
+      "log": "launcher-20261022-180338-889744.txt",
+      "snapshot_bytes": 2356785,
+      "snapshot_sha256": "706cd4ffd4b78698e9eb47a5c48ba10455dfb0fa6e4af3a3009744cdb2429e78",
+      "incomplete_event_lines_ignored": 0,
+      "windows_20khz": 2071,
+      "reasons": {
+        "beacon_not_detected": 1655,
+        "group_delay_inconsistent": 68,
+        "estimator_disagreement": 236,
+        "confirming_beacon_direction": 81,
+        "clipping": 7,
+        "estimated": 24
+      },
+      "code_matched_windows": 409,
+      "matched_reasons": {
+        "group_delay_inconsistent": 68,
+        "estimator_disagreement": 236,
+        "confirming_beacon_direction": 81,
+        "estimated": 24
+      },
+      "strong_code_windows": 339,
+      "strong_reasons": {
+        "estimator_disagreement": 235,
+        "confirming_beacon_direction": 80,
+        "estimated": 24
+      },
+      "valid_windows": 24,
+      "valid_sources": {
+        "strong_code_arrival_consensus": 24
+      },
+      "packet_headers": 2072,
+      "max_dropped": 0,
+      "max_rx_stall": 0,
+      "error_lines": [],
+      "sequence_regressions": 0,
+      "calibration_events": [],
+      "capture_cycle_steady_ms": {
+        "count": 2070,
+        "p05": 195.135,
+        "median": 205.735,
+        "p95": 220.71,
+        "maximum": 234.35
+      },
+      "strong_code_cycle_steady_ms": {
+        "count": 339,
+        "p05": 201.439,
+        "median": 214.75,
+        "p95": 227.186,
+        "maximum": 234.35
+      },
+      "dsp_ms_all": {
+        "count": 2071,
+        "p05": 2.645,
+        "median": 4.74,
+        "p95": 13.3,
+        "maximum": 26.52
+      },
+      "dsp_ms_strong_code": {
+        "count": 339,
+        "p05": 7.229,
+        "median": 10.98,
+        "p95": 18.104,
+        "maximum": 26.52
+      },
+      "device_io_wait_before_dsp_ms": {
+        "count": 2070,
+        "p05": 191.045,
+        "median": 199.795,
+        "p95": 212.147,
+        "maximum": 227.42
+      },
+      "steady_estimate_interval_ms": {
+        "count": 2070,
+        "p05": 203.0,
+        "median": 219.0,
+        "p95": 235.0,
+        "maximum": 265.0
+      },
+      "startup_or_restart_cycles_ms": [
+        763.58
+      ],
+      "pico_unpack_max_per_1024_frames_us": {
+        "count": 2072,
+        "p05": 3850.0,
+        "median": 3851.0,
+        "p95": 3856.0,
+        "maximum": 3896.0
+      },
+      "primary_reject_subtypes": {
+        "geometry_mismatch": 68
+      },
+      "overlapping_threshold_violations": {
+        "retained_pair_residual_over_1_sample": 67,
+        "all_pair_residual_over_1_5_samples": 67,
+        "projection_outside_0_25_to_1_3": 4,
+        "insufficient_group_delays": 0
+      },
+      "strong_code_rejection_example": {
+        "wall_time": "2026-10-22T18:06:52.158224-07:00",
+        "reason": "group_delay_inconsistent",
+        "code_channels": 5,
+        "code_pnr_db": 29.41,
+        "band_level_dbfs": -54.7,
+        "median_pair_coherence": 0.995,
+        "group_delay_pairs": 10,
+        "group_delay_rms_samples": 2.9716,
+        "all_pair_rms_samples": 4.0495,
+        "horizontal_projection": 0.3057,
+        "group_delay_reason": "geometry_mismatch",
+        "capture_cycle_ms": 202.33,
+        "processing_ms": 5.94
+      },
+      "opposite_new_bearings_within_15s": []
+    },
+    {
+      "label": "pico_ui_import_smoke",
+      "log": "launcher-20261022-180253-514264.txt",
+      "snapshot_bytes": 41533,
+      "snapshot_sha256": "b9575435a09403f737a2d702924b92c294f2a15126f7fd9f1693ede9ba075e77",
+      "incomplete_event_lines_ignored": 0,
+      "windows_20khz": 37,
+      "reasons": {
+        "beacon_not_detected": 37
+      },
+      "code_matched_windows": 0,
+      "matched_reasons": {},
+      "strong_code_windows": 0,
+      "strong_reasons": {},
+      "valid_windows": 0,
+      "valid_sources": {},
+      "packet_headers": 40,
+      "max_dropped": 0,
+      "max_rx_stall": 0,
+      "error_lines": [],
+      "sequence_regressions": 0,
+      "calibration_events": [],
+      "capture_cycle_steady_ms": {
+        "count": 34,
+        "p05": 199.097,
+        "median": 203.725,
+        "p95": 209.066,
+        "maximum": 210.72
+      },
+      "strong_code_cycle_steady_ms": null,
+      "dsp_ms_all": {
+        "count": 37,
+        "p05": 4.02,
+        "median": 4.66,
+        "p95": 6.142,
+        "maximum": 19.05
+      },
+      "dsp_ms_strong_code": null,
+      "device_io_wait_before_dsp_ms": {
+        "count": 34,
+        "p05": 194.058,
+        "median": 198.675,
+        "p95": 204.073,
+        "maximum": 206.06
+      },
+      "steady_estimate_interval_ms": {
+        "count": 35,
+        "p05": 203.0,
+        "median": 219.0,
+        "p95": 228.3,
+        "maximum": 922.0
+      },
+      "startup_or_restart_cycles_ms": [
+        794.4,
+        716.79,
+        711.0
+      ],
+      "pico_unpack_max_per_1024_frames_us": {
+        "count": 40,
+        "p05": 3850.0,
+        "median": 3851.0,
+        "p95": 3851.0,
+        "maximum": 3864.0
+      },
+      "primary_reject_subtypes": {},
+      "overlapping_threshold_violations": {
+        "retained_pair_residual_over_1_sample": 0,
+        "all_pair_residual_over_1_5_samples": 0,
+        "projection_outside_0_25_to_1_3": 0,
+        "insufficient_group_delays": 0
+      },
+      "strong_code_rejection_example": null,
+      "opposite_new_bearings_within_15s": []
+    }
+  ],
+  "source_snapshot": {
+    "main.c": "308ef684bf2906912274bfe43ea0913e2db39e841be3a73f7b52fb3a6f674c46",
+    "sen0325_i2s.pio": "485286e52eb8bb51cb62d9f20d6d269d9f551ec7ffc65389c77d9cfd111a3681",
+    "sen0325_launcher.py": "a6000c2cc97ab47622b8bd177ceab393685bb2220bb4db466388bc07e08987b1",
+    "highband_dsp.py": "8279113c3029a6ad348f95b10b68d16bf7476594c56a774eabda74f5fc56355c",
+    "arrival_dsp.py": "8cd8f4d2cc951f1a88abdd9b13ec76648d4955eaec0a384b786cf87f53f82103",
+    "runtime_tuning.py": "8a7a3bc996fe7bb6c3af95570198e543449ab337d6967fbd4e3b06a3123fecf6",
+    "sen0325_simple_view.py": "ec7c56cd4ade8c982165c6906a461b1ceb63c0dbb248cb627008c583450ab962",
+    "array_geometry.json": "728c50ba75dcb3c1cacbc41293b6043d5147e35358e3a1055bcc013f60e92192"
+  },
+  "on_disk_rollback": {
+    "angle_jump_veto_removed": true,
+    "hard_dual_estimator_veto_removed": true,
+    "two_candidate_confirmation_restored": true,
+    "runtime_note": "The program was restarted after snapshots to load the requested removal of the new hard vetoes. Initial scan state is off. No new root-cause repair was implemented.",
+    "runtime_reloaded_at": "2026-10-22T18:17:56.621147-07:00"
+  },
+  "not_measured": [
+    "separate host header wait vs USB payload duration",
+    "microphone channel timing offsets on physical hardware",
+    "measured source bearing/height/distance for these log sessions",
+    "event-queue-to-visible-frame latency",
+    "raw 20 kHz microphone waveforms for these historical sessions"
+  ]
+}

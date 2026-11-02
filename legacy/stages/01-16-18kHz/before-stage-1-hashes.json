@@ -1,0 +1,30 @@
+[
+  {
+    "Path": "C:\\Users\\33296\\Desktop\\工程项目\\EE475\\SEN0325-Pico-Setup\\beacon_dsp.py",
+    "Hash": "30CE498BD7376BCBDE56701A04BE7D9F674BA24F370165EEF1DFBE077D9A1EA6"
+  },
+  {
+    "Path": "C:\\Users\\33296\\Desktop\\工程项目\\EE475\\SEN0325-Pico-Setup\\app_controls.py",
+    "Hash": "41CE0A521F245E834E8EBCD3746E76C120D778E68FA44206C13A52C71271F19E"
+  },
+  {
+    "Path": "C:\\Users\\33296\\Desktop\\工程项目\\EE475\\SEN0325-Pico-Setup\\sen0325_launcher.py",
+    "Hash": "60CD3338C08AFBFB4A4D5CDAAC78B0167EEA53ED5282E1C8824144C4089D6D6B"
+  },
+  {
+    "Path": "C:\\Users\\33296\\Desktop\\工程项目\\EE475\\SEN0325-Pico-Setup\\sen0325_simple_view.py",
+    "Hash": "E2F7620A41238A3051D43728AB7D067AA76710BADE730F2106179A6620FCE9D1"
+  },
+  {
+    "Path": "C:\\Users\\33296\\Desktop\\工程项目\\EE475\\SEN0325-Pico-Setup\\runtime_tuning.py",
+    "Hash": "8A7A3BC996FE7BB6C3AF95570198E543449AB337D6967FBD4E3B06A3123FECF6"
+  },
+  {
+    "Path": "C:\\Users\\33296\\Desktop\\工程项目\\EE475\\SEN0325-Pico-Setup\\array_geometry.json",
+    "Hash": "728C50BA75DCB3C1CACBC41293B6043D5147E35358E3A1055BCC013F60E92192"
+  },
+  {
+    "Path": "C:\\Users\\33296\\Desktop\\工程项目\\EE475\\SEN0325-Pico-Setup\\main.c",
+    "Hash": "308EF684BF2906912274BFE43EA0913E2DB39E841BE3A73F7B52FB3A6F674C46"
+  }
+]

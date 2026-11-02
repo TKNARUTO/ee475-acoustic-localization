@@ -1,0 +1,12 @@
+{
+  "SEN0325-Pico-Setup/highband_dsp.py": "8279113c3029a6ad348f95b10b68d16bf7476594c56a774eabda74f5fc56355c",
+  "SEN0325-Pico-Setup/arrival_dsp.py": "8cd8f4d2cc951f1a88abdd9b13ec76648d4955eaec0a384b786cf87f53f82103",
+  "SEN0325-Pico-Setup/sen0325_launcher.py": "e9b5ed96c4a98fbfcb31f7487b926b86b21e1b524c68ec28b2902a1114483b89",
+  "SEN0325-Pico-Setup/array_geometry.json": "728c50ba75dcb3c1cacbc41293b6043d5147e35358e3a1055bcc013f60e92192",
+  "SEN0325-Pico-Setup/firmware/sen0325_setup-RAM.uf2": "76470847618d44065001eba3615cf49e19e858a27839dd09543700e7d8471151",
+  "SEN0325-Pico-Setup/firmware/sen0325_setup-RAM.elf": "851e48099ac773b43a465c023c0d7f791b0e6fc139cd9f7f9074a71d0d79401b",
+  "README.md": "a71e68c56b6301b91714456af363dadc468de491c03de5ace2c803826e7bc690",
+  "reports/README.txt": "0f9fafc46a321657a6f247fedce0a95ea868d00d6e567299cacde3fb027d79f6",
+  "tests/README.md": "9a2e8e2939979d1652eeb5e95596f98d56af13de8b25f71b8fd5ae5f4d44c2aa",
+  "tests/verify_highband_20k.py": "434e89c235332752aaade9a758818edabc3b4a30d94941045fd25b3af1df34d9"
+}

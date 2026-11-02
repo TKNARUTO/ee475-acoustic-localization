@@ -1,0 +1,66 @@
+{
+  "title": "EE475 | Acoustic Localizer",
+  "frames": 39,
+  "raw_bursts": 39,
+  "channels": [
+    "D0L",
+    "D0R",
+    "D1L",
+    "D1R",
+    "D2L",
+    "D2R",
+    "D3R_CENTER"
+  ],
+  "main_button_count": 5,
+  "checks": {
+    "startup_radar_off": true,
+    "startup_sound_off": true,
+    "advanced_hidden_by_default": true,
+    "play_does_not_start_radar": true,
+    "radar_start_does_not_replay_sound": true,
+    "real_pico_coded_capture": true,
+    "radar_stop_keeps_sound_playing": true,
+    "stopped_radar_has_no_arrow": true,
+    "sound_stop_keeps_radar_stopped": true,
+    "radar_can_run_without_sound": true,
+    "audio_choice_preserves_radar_state": true,
+    "high_frequency_receiver_configured": true,
+    "audible_receiver_restored": true,
+    "sound_play_keeps_radar_running": true,
+    "sound_stop_keeps_radar_running": true,
+    "advanced_opens": true,
+    "curve_opens": true,
+    "bad_distance_rejected": true,
+    "two_audio_choices": true
+  },
+  "content_height": 717,
+  "available_height": 780,
+  "content_width": 859,
+  "available_width": 1180,
+  "callback_errors": [],
+  "playback_backend": "silent test double; no test sound emitted",
+  "sound_calls": [
+    [
+      "play",
+      "C:\\Users\\33296\\Desktop\\工程项目\\EE475\\SEN0325-Pico-Setup\\beacon-audio\\coded-16-18-v1-right-only.wav"
+    ],
+    [
+      "stop",
+      null
+    ],
+    [
+      "play",
+      "C:\\Users\\33296\\Desktop\\工程项目\\EE475\\SEN0325-Pico-Setup\\beacon-audio\\coded-audible-v1-right-only.wav"
+    ],
+    [
+      "stop",
+      null
+    ]
+  ],
+  "raw_log": "C:\\Users\\33296\\Desktop\\工程项目\\EE475\\SEN0325-Pico-Setup\\logs\\launcher-20261022-170709-991646.txt",
+  "observed_ui_refresh_hz": 32.26,
+  "observed_detection_hz": 4.57,
+  "target_ui_refresh_ms": 33,
+  "closed_radar_and_sound_off": true,
+  "passed": true
+}

@@ -1,0 +1,3407 @@
+{
+  "tested_nonphysical_delay_fields": 179,
+  "accepted": 0,
+  "rows": [
+    {
+      "rms_samples": 3.280722761662933,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93757,
+        "joint_unconstrained_coherence": 0.9974,
+        "joint_coherence_loss": 0.05983,
+        "joint_margin_45_deg": 0.01141,
+        "joint_opposite_margin": 0.02141,
+        "joint_channels": 7,
+        "horizontal_projection": 0.55,
+        "candidate_angle_deg": 114.0,
+        "joint_pair_coherence_min": 0.80475,
+        "joint_loss_budget": 0.0039,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.3040952189779924,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96878,
+        "joint_unconstrained_coherence": 0.99513,
+        "joint_coherence_loss": 0.02635,
+        "joint_margin_45_deg": 0.06077,
+        "joint_opposite_margin": 0.11112,
+        "joint_channels": 7,
+        "horizontal_projection": 1.25,
+        "candidate_angle_deg": 182.0,
+        "joint_pair_coherence_min": 0.87757,
+        "joint_loss_budget": 0.0073,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.4616023508116327,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93003,
+        "joint_unconstrained_coherence": 0.99914,
+        "joint_coherence_loss": 0.06911,
+        "joint_margin_45_deg": 0.00094,
+        "joint_opposite_margin": 0.00178,
+        "joint_channels": 7,
+        "horizontal_projection": 0.15,
+        "candidate_angle_deg": 324.0,
+        "joint_pair_coherence_min": 0.76265,
+        "joint_loss_budget": 0.002,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.2219229567794545,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.97231,
+        "joint_unconstrained_coherence": 0.99258,
+        "joint_coherence_loss": 0.02027,
+        "joint_margin_45_deg": 0.08131,
+        "joint_opposite_margin": 0.15428,
+        "joint_channels": 7,
+        "horizontal_projection": 1.55,
+        "candidate_angle_deg": 350.0,
+        "joint_pair_coherence_min": 0.91158,
+        "joint_loss_budget": 0.01112,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.5248391786744975,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.92921,
+        "joint_unconstrained_coherence": 0.99559,
+        "joint_coherence_loss": 0.06638,
+        "joint_margin_45_deg": 0.01419,
+        "joint_opposite_margin": 0.02916,
+        "joint_channels": 7,
+        "horizontal_projection": 0.65,
+        "candidate_angle_deg": 296.0,
+        "joint_pair_coherence_min": 0.80011,
+        "joint_loss_budget": 0.00661,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.7662720510483254,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.92353,
+        "joint_unconstrained_coherence": 0.99359,
+        "joint_coherence_loss": 0.07006,
+        "joint_margin_45_deg": 0.02191,
+        "joint_opposite_margin": 0.04456,
+        "joint_channels": 7,
+        "horizontal_projection": 0.8,
+        "candidate_angle_deg": 72.0,
+        "joint_pair_coherence_min": 0.70476,
+        "joint_loss_budget": 0.00962,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.6323908024924028,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.92932,
+        "joint_unconstrained_coherence": 0.97472,
+        "joint_coherence_loss": 0.0454,
+        "joint_margin_45_deg": 0.08357,
+        "joint_opposite_margin": 0.1456,
+        "joint_channels": 7,
+        "horizontal_projection": 1.5,
+        "candidate_angle_deg": 276.0,
+        "joint_pair_coherence_min": 0.72941,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.8269981740208006,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.92033,
+        "joint_unconstrained_coherence": 0.98358,
+        "joint_coherence_loss": 0.06325,
+        "joint_margin_45_deg": 0.04606,
+        "joint_opposite_margin": 0.08632,
+        "joint_channels": 7,
+        "horizontal_projection": 1.15,
+        "candidate_angle_deg": 142.0,
+        "joint_pair_coherence_min": 0.74199,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.3355850029491614,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96743,
+        "joint_unconstrained_coherence": 0.99457,
+        "joint_coherence_loss": 0.02714,
+        "joint_margin_45_deg": 0.06792,
+        "joint_opposite_margin": 0.12793,
+        "joint_channels": 7,
+        "horizontal_projection": 1.35,
+        "candidate_angle_deg": 36.0,
+        "joint_pair_coherence_min": 0.85405,
+        "joint_loss_budget": 0.00815,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.1204760203388924,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.9383,
+        "joint_unconstrained_coherence": 0.9705,
+        "joint_coherence_loss": 0.03221,
+        "joint_margin_45_deg": 0.11453,
+        "joint_opposite_margin": 0.21424,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 294.0,
+        "joint_pair_coherence_min": 0.73213,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.1272902085747236,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94452,
+        "joint_unconstrained_coherence": 0.99691,
+        "joint_coherence_loss": 0.0524,
+        "joint_margin_45_deg": 0.00777,
+        "joint_opposite_margin": 0.01481,
+        "joint_channels": 7,
+        "horizontal_projection": 0.45,
+        "candidate_angle_deg": 208.0,
+        "joint_pair_coherence_min": 0.7512,
+        "joint_loss_budget": 0.00463,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.6458008550894294,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95828,
+        "joint_unconstrained_coherence": 0.9878,
+        "joint_coherence_loss": 0.02952,
+        "joint_margin_45_deg": 0.09,
+        "joint_opposite_margin": 0.16391,
+        "joint_channels": 7,
+        "horizontal_projection": 1.55,
+        "candidate_angle_deg": 220.0,
+        "joint_pair_coherence_min": 0.82004,
+        "joint_loss_budget": 0.0183,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.107162945697726,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94606,
+        "joint_unconstrained_coherence": 0.98428,
+        "joint_coherence_loss": 0.03822,
+        "joint_margin_45_deg": 0.06535,
+        "joint_opposite_margin": 0.11521,
+        "joint_channels": 7,
+        "horizontal_projection": 1.35,
+        "candidate_angle_deg": 288.0,
+        "joint_pair_coherence_min": 0.78919,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.6296058586910522,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96031,
+        "joint_unconstrained_coherence": 0.98577,
+        "joint_coherence_loss": 0.02546,
+        "joint_margin_45_deg": 0.09494,
+        "joint_opposite_margin": 0.16661,
+        "joint_channels": 7,
+        "horizontal_projection": 1.55,
+        "candidate_angle_deg": 274.0,
+        "joint_pair_coherence_min": 0.82704,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.690996997876957,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.90336,
+        "joint_unconstrained_coherence": 0.96533,
+        "joint_coherence_loss": 0.06197,
+        "joint_margin_45_deg": 0.09004,
+        "joint_opposite_margin": 0.15858,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 316.0,
+        "joint_pair_coherence_min": 0.48963,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.557036072785014,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.8539,
+        "joint_unconstrained_coherence": 0.97123,
+        "joint_coherence_loss": 0.11734,
+        "joint_margin_45_deg": 0.04804,
+        "joint_opposite_margin": 0.08257,
+        "joint_channels": 7,
+        "horizontal_projection": 1.25,
+        "candidate_angle_deg": 252.0,
+        "joint_pair_coherence_min": 0.37512,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.122720588247896,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94374,
+        "joint_unconstrained_coherence": 0.99628,
+        "joint_coherence_loss": 0.05255,
+        "joint_margin_45_deg": 0.02049,
+        "joint_opposite_margin": 0.03984,
+        "joint_channels": 7,
+        "horizontal_projection": 0.75,
+        "candidate_angle_deg": 328.0,
+        "joint_pair_coherence_min": 0.78464,
+        "joint_loss_budget": 0.00557,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.0171428033003025,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93071,
+        "joint_unconstrained_coherence": 0.97908,
+        "joint_coherence_loss": 0.04837,
+        "joint_margin_45_deg": 0.08925,
+        "joint_opposite_margin": 0.16104,
+        "joint_channels": 7,
+        "horizontal_projection": 1.55,
+        "candidate_angle_deg": 168.0,
+        "joint_pair_coherence_min": 0.58218,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.017462207086352,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.88891,
+        "joint_unconstrained_coherence": 0.98732,
+        "joint_coherence_loss": 0.09841,
+        "joint_margin_45_deg": 0.01548,
+        "joint_opposite_margin": 0.03282,
+        "joint_channels": 7,
+        "horizontal_projection": 0.65,
+        "candidate_angle_deg": 248.0,
+        "joint_pair_coherence_min": 0.38549,
+        "joint_loss_budget": 0.01902,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.0797496618190268,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94437,
+        "joint_unconstrained_coherence": 0.99566,
+        "joint_coherence_loss": 0.05129,
+        "joint_margin_45_deg": 0.02997,
+        "joint_opposite_margin": 0.05909,
+        "joint_channels": 7,
+        "horizontal_projection": 0.9,
+        "candidate_angle_deg": 248.0,
+        "joint_pair_coherence_min": 0.78485,
+        "joint_loss_budget": 0.00651,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.6944993899217224,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.92349,
+        "joint_unconstrained_coherence": 0.98939,
+        "joint_coherence_loss": 0.0659,
+        "joint_margin_45_deg": 0.03163,
+        "joint_opposite_margin": 0.05815,
+        "joint_channels": 7,
+        "horizontal_projection": 0.95,
+        "candidate_angle_deg": 170.0,
+        "joint_pair_coherence_min": 0.79485,
+        "joint_loss_budget": 0.01591,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.6950788607749736,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95896,
+        "joint_unconstrained_coherence": 0.98664,
+        "joint_coherence_loss": 0.02768,
+        "joint_margin_45_deg": 0.07247,
+        "joint_opposite_margin": 0.12655,
+        "joint_channels": 7,
+        "horizontal_projection": 1.35,
+        "candidate_angle_deg": 186.0,
+        "joint_pair_coherence_min": 0.80991,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.6156999904806884,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95967,
+        "joint_unconstrained_coherence": 0.99858,
+        "joint_coherence_loss": 0.03891,
+        "joint_margin_45_deg": 0.00767,
+        "joint_opposite_margin": 0.01507,
+        "joint_channels": 7,
+        "horizontal_projection": 0.45,
+        "candidate_angle_deg": 248.0,
+        "joint_pair_coherence_min": 0.8303,
+        "joint_loss_budget": 0.00213,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.0006930898400177,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.9539,
+        "joint_unconstrained_coherence": 0.98694,
+        "joint_coherence_loss": 0.03304,
+        "joint_margin_45_deg": 0.0697,
+        "joint_opposite_margin": 0.13027,
+        "joint_channels": 7,
+        "horizontal_projection": 1.35,
+        "candidate_angle_deg": 218.0,
+        "joint_pair_coherence_min": 0.75023,
+        "joint_loss_budget": 0.01959,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.322046207775479,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96788,
+        "joint_unconstrained_coherence": 0.99717,
+        "joint_coherence_loss": 0.02929,
+        "joint_margin_45_deg": 0.04004,
+        "joint_opposite_margin": 0.0763,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 280.0,
+        "joint_pair_coherence_min": 0.90475,
+        "joint_loss_budget": 0.00424,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.2999007775533515,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.9408,
+        "joint_unconstrained_coherence": 0.98996,
+        "joint_coherence_loss": 0.04915,
+        "joint_margin_45_deg": 0.05828,
+        "joint_opposite_margin": 0.10982,
+        "joint_channels": 7,
+        "horizontal_projection": 1.25,
+        "candidate_angle_deg": 90.0,
+        "joint_pair_coherence_min": 0.70111,
+        "joint_loss_budget": 0.01507,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.33328498802005,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.89778,
+        "joint_unconstrained_coherence": 0.98265,
+        "joint_coherence_loss": 0.08487,
+        "joint_margin_45_deg": 0.053,
+        "joint_opposite_margin": 0.09984,
+        "joint_channels": 7,
+        "horizontal_projection": 1.25,
+        "candidate_angle_deg": 232.0,
+        "joint_pair_coherence_min": 0.62912,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.2060201170778124,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94087,
+        "joint_unconstrained_coherence": 0.99541,
+        "joint_coherence_loss": 0.05454,
+        "joint_margin_45_deg": 0.02795,
+        "joint_opposite_margin": 0.05277,
+        "joint_channels": 7,
+        "horizontal_projection": 0.85,
+        "candidate_angle_deg": 340.0,
+        "joint_pair_coherence_min": 0.79677,
+        "joint_loss_budget": 0.00689,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.1495516636715273,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94254,
+        "joint_unconstrained_coherence": 0.98601,
+        "joint_coherence_loss": 0.04347,
+        "joint_margin_45_deg": 0.07207,
+        "joint_opposite_margin": 0.13533,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 216.0,
+        "joint_pair_coherence_min": 0.73134,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.555130257245227,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96078,
+        "joint_unconstrained_coherence": 0.9997,
+        "joint_coherence_loss": 0.03892,
+        "joint_margin_45_deg": 0.01687,
+        "joint_opposite_margin": 0.03319,
+        "joint_channels": 7,
+        "horizontal_projection": 0.65,
+        "candidate_angle_deg": 252.0,
+        "joint_pair_coherence_min": 0.85471,
+        "joint_loss_budget": 0.002,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.0218938239124857,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95301,
+        "joint_unconstrained_coherence": 0.98277,
+        "joint_coherence_loss": 0.02976,
+        "joint_margin_45_deg": 0.07714,
+        "joint_opposite_margin": 0.13331,
+        "joint_channels": 7,
+        "horizontal_projection": 1.45,
+        "candidate_angle_deg": 200.0,
+        "joint_pair_coherence_min": 0.82984,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.3734074664523837,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.92706,
+        "joint_unconstrained_coherence": 0.97049,
+        "joint_coherence_loss": 0.04343,
+        "joint_margin_45_deg": 0.11334,
+        "joint_opposite_margin": 0.1914,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 296.0,
+        "joint_pair_coherence_min": 0.68556,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.921717601649735,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.91453,
+        "joint_unconstrained_coherence": 0.98444,
+        "joint_coherence_loss": 0.0699,
+        "joint_margin_45_deg": 0.06415,
+        "joint_opposite_margin": 0.11942,
+        "joint_channels": 7,
+        "horizontal_projection": 1.35,
+        "candidate_angle_deg": 68.0,
+        "joint_pair_coherence_min": 0.71371,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.62427313557957,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.88066,
+        "joint_unconstrained_coherence": 0.98178,
+        "joint_coherence_loss": 0.10112,
+        "joint_margin_45_deg": 0.04803,
+        "joint_opposite_margin": 0.0898,
+        "joint_channels": 7,
+        "horizontal_projection": 1.2,
+        "candidate_angle_deg": 290.0,
+        "joint_pair_coherence_min": 0.60148,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.317635620825732,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94257,
+        "joint_unconstrained_coherence": 0.98452,
+        "joint_coherence_loss": 0.04195,
+        "joint_margin_45_deg": 0.06215,
+        "joint_opposite_margin": 0.11458,
+        "joint_channels": 7,
+        "horizontal_projection": 1.35,
+        "candidate_angle_deg": 198.0,
+        "joint_pair_coherence_min": 0.72385,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.763202514029336,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.84787,
+        "joint_unconstrained_coherence": 0.97245,
+        "joint_coherence_loss": 0.12459,
+        "joint_margin_45_deg": 0.02885,
+        "joint_opposite_margin": 0.05646,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 138.0,
+        "joint_pair_coherence_min": 0.31446,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.659746336689743,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.88528,
+        "joint_unconstrained_coherence": 0.98882,
+        "joint_coherence_loss": 0.10354,
+        "joint_margin_45_deg": 0.01613,
+        "joint_opposite_margin": 0.03087,
+        "joint_channels": 7,
+        "horizontal_projection": 0.65,
+        "candidate_angle_deg": 276.0,
+        "joint_pair_coherence_min": 0.627,
+        "joint_loss_budget": 0.01677,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.185708324650627,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.9405,
+        "joint_unconstrained_coherence": 0.99194,
+        "joint_coherence_loss": 0.05144,
+        "joint_margin_45_deg": 0.05588,
+        "joint_opposite_margin": 0.10732,
+        "joint_channels": 7,
+        "horizontal_projection": 1.25,
+        "candidate_angle_deg": 130.0,
+        "joint_pair_coherence_min": 0.78292,
+        "joint_loss_budget": 0.01208,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.4143004382148967,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93938,
+        "joint_unconstrained_coherence": 0.99159,
+        "joint_coherence_loss": 0.05221,
+        "joint_margin_45_deg": 0.03723,
+        "joint_opposite_margin": 0.07011,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 194.0,
+        "joint_pair_coherence_min": 0.68185,
+        "joint_loss_budget": 0.01261,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.2778394308281595,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96881,
+        "joint_unconstrained_coherence": 0.99702,
+        "joint_coherence_loss": 0.02821,
+        "joint_margin_45_deg": 0.04993,
+        "joint_opposite_margin": 0.09168,
+        "joint_channels": 7,
+        "horizontal_projection": 1.15,
+        "candidate_angle_deg": 282.0,
+        "joint_pair_coherence_min": 0.92375,
+        "joint_loss_budget": 0.00447,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.609921155112014,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.89544,
+        "joint_unconstrained_coherence": 0.98995,
+        "joint_coherence_loss": 0.09451,
+        "joint_margin_45_deg": 0.00663,
+        "joint_opposite_margin": 0.01347,
+        "joint_channels": 7,
+        "horizontal_projection": 0.45,
+        "candidate_angle_deg": 124.0,
+        "joint_pair_coherence_min": 0.44416,
+        "joint_loss_budget": 0.01507,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.817703214642448,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.92448,
+        "joint_unconstrained_coherence": 0.99162,
+        "joint_coherence_loss": 0.06714,
+        "joint_margin_45_deg": 0.01137,
+        "joint_opposite_margin": 0.02114,
+        "joint_channels": 7,
+        "horizontal_projection": 0.55,
+        "candidate_angle_deg": 234.0,
+        "joint_pair_coherence_min": 0.63021,
+        "joint_loss_budget": 0.01257,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.6037050874704932,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.92622,
+        "joint_unconstrained_coherence": 0.99687,
+        "joint_coherence_loss": 0.07065,
+        "joint_margin_45_deg": 0.00333,
+        "joint_opposite_margin": 0.00635,
+        "joint_channels": 7,
+        "horizontal_projection": 0.3,
+        "candidate_angle_deg": 14.0,
+        "joint_pair_coherence_min": 0.68432,
+        "joint_loss_budget": 0.00469,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.1904863769527547,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94469,
+        "joint_unconstrained_coherence": 0.99033,
+        "joint_coherence_loss": 0.04564,
+        "joint_margin_45_deg": 0.04586,
+        "joint_opposite_margin": 0.08314,
+        "joint_channels": 7,
+        "horizontal_projection": 1.1,
+        "candidate_angle_deg": 70.0,
+        "joint_pair_coherence_min": 0.76502,
+        "joint_loss_budget": 0.01451,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.6667154324716034,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95866,
+        "joint_unconstrained_coherence": 0.99632,
+        "joint_coherence_loss": 0.03766,
+        "joint_margin_45_deg": 0.02695,
+        "joint_opposite_margin": 0.0507,
+        "joint_channels": 7,
+        "horizontal_projection": 0.85,
+        "candidate_angle_deg": 48.0,
+        "joint_pair_coherence_min": 0.81007,
+        "joint_loss_budget": 0.00552,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 7.196641421387066,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 19,
+        "joint_spectral_coherence": 0.82729,
+        "joint_unconstrained_coherence": 0.98133,
+        "joint_coherence_loss": 0.15404,
+        "joint_margin_45_deg": 0.01124,
+        "joint_opposite_margin": 0.02171,
+        "joint_channels": 7,
+        "horizontal_projection": 0.6,
+        "candidate_angle_deg": 134.0,
+        "joint_pair_coherence_min": 0.48319,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.3030856332374676,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96805,
+        "joint_unconstrained_coherence": 0.99883,
+        "joint_coherence_loss": 0.03079,
+        "joint_margin_45_deg": 0.02102,
+        "joint_opposite_margin": 0.04077,
+        "joint_channels": 7,
+        "horizontal_projection": 0.7,
+        "candidate_angle_deg": 68.0,
+        "joint_pair_coherence_min": 0.899,
+        "joint_loss_budget": 0.002,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.545993922496795,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.89845,
+        "joint_unconstrained_coherence": 0.9897,
+        "joint_coherence_loss": 0.09125,
+        "joint_margin_45_deg": 0.01574,
+        "joint_opposite_margin": 0.03213,
+        "joint_channels": 7,
+        "horizontal_projection": 0.65,
+        "candidate_angle_deg": 202.0,
+        "joint_pair_coherence_min": 0.51301,
+        "joint_loss_budget": 0.01545,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.192176167931997,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.91013,
+        "joint_unconstrained_coherence": 0.98948,
+        "joint_coherence_loss": 0.07934,
+        "joint_margin_45_deg": 0.03415,
+        "joint_opposite_margin": 0.06862,
+        "joint_channels": 7,
+        "horizontal_projection": 0.95,
+        "candidate_angle_deg": 132.0,
+        "joint_pair_coherence_min": 0.64167,
+        "joint_loss_budget": 0.01579,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.005729294197145,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.91973,
+        "joint_unconstrained_coherence": 0.98767,
+        "joint_coherence_loss": 0.06794,
+        "joint_margin_45_deg": 0.05332,
+        "joint_opposite_margin": 0.1037,
+        "joint_channels": 7,
+        "horizontal_projection": 1.25,
+        "candidate_angle_deg": 306.0,
+        "joint_pair_coherence_min": 0.64923,
+        "joint_loss_budget": 0.0185,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.4444061030285935,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93192,
+        "joint_unconstrained_coherence": 0.9963,
+        "joint_coherence_loss": 0.06438,
+        "joint_margin_45_deg": 0.01896,
+        "joint_opposite_margin": 0.03745,
+        "joint_channels": 7,
+        "horizontal_projection": 0.7,
+        "candidate_angle_deg": 210.0,
+        "joint_pair_coherence_min": 0.78507,
+        "joint_loss_budget": 0.00555,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.85440495596887,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95354,
+        "joint_unconstrained_coherence": 0.98861,
+        "joint_coherence_loss": 0.03507,
+        "joint_margin_45_deg": 0.07661,
+        "joint_opposite_margin": 0.14327,
+        "joint_channels": 7,
+        "horizontal_projection": 1.45,
+        "candidate_angle_deg": 288.0,
+        "joint_pair_coherence_min": 0.7836,
+        "joint_loss_budget": 0.01709,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.6459906607824513,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.92883,
+        "joint_unconstrained_coherence": 0.99242,
+        "joint_coherence_loss": 0.06358,
+        "joint_margin_45_deg": 0.02957,
+        "joint_opposite_margin": 0.0558,
+        "joint_channels": 7,
+        "horizontal_projection": 0.85,
+        "candidate_angle_deg": 52.0,
+        "joint_pair_coherence_min": 0.72984,
+        "joint_loss_budget": 0.01137,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.809006843226696,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95336,
+        "joint_unconstrained_coherence": 0.99589,
+        "joint_coherence_loss": 0.04253,
+        "joint_margin_45_deg": 0.04089,
+        "joint_opposite_margin": 0.07887,
+        "joint_channels": 7,
+        "horizontal_projection": 1.05,
+        "candidate_angle_deg": 350.0,
+        "joint_pair_coherence_min": 0.81271,
+        "joint_loss_budget": 0.00616,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.3353550384087747,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96725,
+        "joint_unconstrained_coherence": 0.98641,
+        "joint_coherence_loss": 0.01916,
+        "joint_margin_45_deg": 0.0948,
+        "joint_opposite_margin": 0.16434,
+        "joint_channels": 7,
+        "horizontal_projection": 1.55,
+        "candidate_angle_deg": 288.0,
+        "joint_pair_coherence_min": 0.86985,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.051027201409778,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.97489,
+        "joint_unconstrained_coherence": 0.99565,
+        "joint_coherence_loss": 0.02076,
+        "joint_margin_45_deg": 0.06366,
+        "joint_opposite_margin": 0.11965,
+        "joint_channels": 7,
+        "horizontal_projection": 1.25,
+        "candidate_angle_deg": 194.0,
+        "joint_pair_coherence_min": 0.89626,
+        "joint_loss_budget": 0.00653,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.93809081471988,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94845,
+        "joint_unconstrained_coherence": 0.99987,
+        "joint_coherence_loss": 0.05142,
+        "joint_margin_45_deg": 0.00791,
+        "joint_opposite_margin": 0.0149,
+        "joint_channels": 7,
+        "horizontal_projection": 0.45,
+        "candidate_angle_deg": 164.0,
+        "joint_pair_coherence_min": 0.85301,
+        "joint_loss_budget": 0.002,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.673146672300722,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.92904,
+        "joint_unconstrained_coherence": 0.98692,
+        "joint_coherence_loss": 0.05788,
+        "joint_margin_45_deg": 0.03535,
+        "joint_opposite_margin": 0.06552,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 102.0,
+        "joint_pair_coherence_min": 0.67369,
+        "joint_loss_budget": 0.01962,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.124886073936457,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.97303,
+        "joint_unconstrained_coherence": 0.99458,
+        "joint_coherence_loss": 0.02155,
+        "joint_margin_45_deg": 0.06573,
+        "joint_opposite_margin": 0.12318,
+        "joint_channels": 7,
+        "horizontal_projection": 1.3,
+        "candidate_angle_deg": 150.0,
+        "joint_pair_coherence_min": 0.90418,
+        "joint_loss_budget": 0.00812,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.707108212638179,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.8897,
+        "joint_unconstrained_coherence": 0.98976,
+        "joint_coherence_loss": 0.10006,
+        "joint_margin_45_deg": 0.01542,
+        "joint_opposite_margin": 0.02824,
+        "joint_channels": 7,
+        "horizontal_projection": 0.65,
+        "candidate_angle_deg": 82.0,
+        "joint_pair_coherence_min": 0.47067,
+        "joint_loss_budget": 0.01536,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 7.026171989348195,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.82228,
+        "joint_unconstrained_coherence": 0.9787,
+        "joint_coherence_loss": 0.15642,
+        "joint_margin_45_deg": 0.00518,
+        "joint_opposite_margin": 0.01032,
+        "joint_channels": 7,
+        "horizontal_projection": 0.4,
+        "candidate_angle_deg": 158.0,
+        "joint_pair_coherence_min": 0.36524,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.381330419708267,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.90019,
+        "joint_unconstrained_coherence": 0.99209,
+        "joint_coherence_loss": 0.09189,
+        "joint_margin_45_deg": 0.00691,
+        "joint_opposite_margin": 0.01404,
+        "joint_channels": 7,
+        "horizontal_projection": 0.45,
+        "candidate_angle_deg": 288.0,
+        "joint_pair_coherence_min": 0.6255,
+        "joint_loss_budget": 0.01187,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.5595365094728244,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96367,
+        "joint_unconstrained_coherence": 0.98743,
+        "joint_coherence_loss": 0.02376,
+        "joint_margin_45_deg": 0.07698,
+        "joint_opposite_margin": 0.13305,
+        "joint_channels": 7,
+        "horizontal_projection": 1.4,
+        "candidate_angle_deg": 168.0,
+        "joint_pair_coherence_min": 0.83544,
+        "joint_loss_budget": 0.01885,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.3628305609687663,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93885,
+        "joint_unconstrained_coherence": 0.97622,
+        "joint_coherence_loss": 0.03738,
+        "joint_margin_45_deg": 0.08614,
+        "joint_opposite_margin": 0.14312,
+        "joint_channels": 7,
+        "horizontal_projection": 1.55,
+        "candidate_angle_deg": 302.0,
+        "joint_pair_coherence_min": 0.76714,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.8619848566376316,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.91569,
+        "joint_unconstrained_coherence": 0.99408,
+        "joint_coherence_loss": 0.07839,
+        "joint_margin_45_deg": 0.02545,
+        "joint_opposite_margin": 0.04831,
+        "joint_channels": 7,
+        "horizontal_projection": 0.85,
+        "candidate_angle_deg": 148.0,
+        "joint_pair_coherence_min": 0.69903,
+        "joint_loss_budget": 0.00888,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.5234471990628875,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93373,
+        "joint_unconstrained_coherence": 0.98636,
+        "joint_coherence_loss": 0.05263,
+        "joint_margin_45_deg": 0.06379,
+        "joint_opposite_margin": 0.12003,
+        "joint_channels": 7,
+        "horizontal_projection": 1.35,
+        "candidate_angle_deg": 196.0,
+        "joint_pair_coherence_min": 0.72066,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.234279314901849,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.9121,
+        "joint_unconstrained_coherence": 0.96882,
+        "joint_coherence_loss": 0.05673,
+        "joint_margin_45_deg": 0.10485,
+        "joint_opposite_margin": 0.19028,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 72.0,
+        "joint_pair_coherence_min": 0.53367,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.9877939113097667,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.91251,
+        "joint_unconstrained_coherence": 0.9961,
+        "joint_coherence_loss": 0.08359,
+        "joint_margin_45_deg": 0.00232,
+        "joint_opposite_margin": 0.00452,
+        "joint_channels": 7,
+        "horizontal_projection": 0.25,
+        "candidate_angle_deg": 196.0,
+        "joint_pair_coherence_min": 0.63639,
+        "joint_loss_budget": 0.00586,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.1306614013175107,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94316,
+        "joint_unconstrained_coherence": 0.99574,
+        "joint_coherence_loss": 0.05258,
+        "joint_margin_45_deg": 0.02782,
+        "joint_opposite_margin": 0.05355,
+        "joint_channels": 7,
+        "horizontal_projection": 0.85,
+        "candidate_angle_deg": 298.0,
+        "joint_pair_coherence_min": 0.81828,
+        "joint_loss_budget": 0.00639,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.9921036737940643,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.91256,
+        "joint_unconstrained_coherence": 0.97565,
+        "joint_coherence_loss": 0.06309,
+        "joint_margin_45_deg": 0.0766,
+        "joint_opposite_margin": 0.13022,
+        "joint_channels": 7,
+        "horizontal_projection": 1.45,
+        "candidate_angle_deg": 102.0,
+        "joint_pair_coherence_min": 0.69584,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.0034071025400717,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94889,
+        "joint_unconstrained_coherence": 0.99089,
+        "joint_coherence_loss": 0.042,
+        "joint_margin_45_deg": 0.06196,
+        "joint_opposite_margin": 0.11297,
+        "joint_channels": 7,
+        "horizontal_projection": 1.3,
+        "candidate_angle_deg": 258.0,
+        "joint_pair_coherence_min": 0.79082,
+        "joint_loss_budget": 0.01367,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.865809680261365,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95643,
+        "joint_unconstrained_coherence": 0.98691,
+        "joint_coherence_loss": 0.03048,
+        "joint_margin_45_deg": 0.07853,
+        "joint_opposite_margin": 0.14628,
+        "joint_channels": 7,
+        "horizontal_projection": 1.5,
+        "candidate_angle_deg": 102.0,
+        "joint_pair_coherence_min": 0.78679,
+        "joint_loss_budget": 0.01964,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.8696577536982244,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95098,
+        "joint_unconstrained_coherence": 0.99892,
+        "joint_coherence_loss": 0.04794,
+        "joint_margin_45_deg": 0.015,
+        "joint_opposite_margin": 0.0294,
+        "joint_channels": 7,
+        "horizontal_projection": 0.6,
+        "candidate_angle_deg": 8.0,
+        "joint_pair_coherence_min": 0.84515,
+        "joint_loss_budget": 0.002,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.32731035586755,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93876,
+        "joint_unconstrained_coherence": 0.98067,
+        "joint_coherence_loss": 0.04191,
+        "joint_margin_45_deg": 0.09378,
+        "joint_opposite_margin": 0.16493,
+        "joint_channels": 7,
+        "horizontal_projection": 1.55,
+        "candidate_angle_deg": 268.0,
+        "joint_pair_coherence_min": 0.73913,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.37208864876945,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.90351,
+        "joint_unconstrained_coherence": 0.98636,
+        "joint_coherence_loss": 0.08285,
+        "joint_margin_45_deg": 0.04201,
+        "joint_opposite_margin": 0.07698,
+        "joint_channels": 7,
+        "horizontal_projection": 1.05,
+        "candidate_angle_deg": 138.0,
+        "joint_pair_coherence_min": 0.60118,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.929905915323748,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.8323,
+        "joint_unconstrained_coherence": 0.96322,
+        "joint_coherence_loss": 0.13092,
+        "joint_margin_45_deg": 0.03706,
+        "joint_opposite_margin": 0.067,
+        "joint_channels": 7,
+        "horizontal_projection": 1.1,
+        "candidate_angle_deg": 96.0,
+        "joint_pair_coherence_min": 0.40934,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.258747961156076,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 19,
+        "joint_spectral_coherence": 0.88483,
+        "joint_unconstrained_coherence": 0.97056,
+        "joint_coherence_loss": 0.08573,
+        "joint_margin_45_deg": 0.06114,
+        "joint_opposite_margin": 0.09985,
+        "joint_channels": 7,
+        "horizontal_projection": 1.4,
+        "candidate_angle_deg": 50.0,
+        "joint_pair_coherence_min": 0.56251,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.713678680853527,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95906,
+        "joint_unconstrained_coherence": 0.9949,
+        "joint_coherence_loss": 0.03584,
+        "joint_margin_45_deg": 0.04429,
+        "joint_opposite_margin": 0.08556,
+        "joint_channels": 7,
+        "horizontal_projection": 1.05,
+        "candidate_angle_deg": 142.0,
+        "joint_pair_coherence_min": 0.80629,
+        "joint_loss_budget": 0.00765,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.440618037971644,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.88311,
+        "joint_unconstrained_coherence": 0.9913,
+        "joint_coherence_loss": 0.10819,
+        "joint_margin_45_deg": 0.01455,
+        "joint_opposite_margin": 0.03082,
+        "joint_channels": 7,
+        "horizontal_projection": 0.7,
+        "candidate_angle_deg": 332.0,
+        "joint_pair_coherence_min": 0.41958,
+        "joint_loss_budget": 0.01305,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.104660050804228,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.97531,
+        "joint_unconstrained_coherence": 0.98989,
+        "joint_coherence_loss": 0.01458,
+        "joint_margin_45_deg": 0.09285,
+        "joint_opposite_margin": 0.17068,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 40.0,
+        "joint_pair_coherence_min": 0.89955,
+        "joint_loss_budget": 0.01516,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.4052846075890666,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.9421,
+        "joint_unconstrained_coherence": 0.97553,
+        "joint_coherence_loss": 0.03343,
+        "joint_margin_45_deg": 0.08475,
+        "joint_opposite_margin": 0.13941,
+        "joint_channels": 7,
+        "horizontal_projection": 1.5,
+        "candidate_angle_deg": 182.0,
+        "joint_pair_coherence_min": 0.70665,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.9362260770671056,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94722,
+        "joint_unconstrained_coherence": 0.97381,
+        "joint_coherence_loss": 0.0266,
+        "joint_margin_45_deg": 0.0631,
+        "joint_opposite_margin": 0.10652,
+        "joint_channels": 7,
+        "horizontal_projection": 1.35,
+        "candidate_angle_deg": 14.0,
+        "joint_pair_coherence_min": 0.55446,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.245211181848886,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93839,
+        "joint_unconstrained_coherence": 0.9932,
+        "joint_coherence_loss": 0.05482,
+        "joint_margin_45_deg": 0.05101,
+        "joint_opposite_margin": 0.09641,
+        "joint_channels": 7,
+        "horizontal_projection": 1.2,
+        "candidate_angle_deg": 316.0,
+        "joint_pair_coherence_min": 0.76022,
+        "joint_loss_budget": 0.01019,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.3041891261342995,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94052,
+        "joint_unconstrained_coherence": 0.98448,
+        "joint_coherence_loss": 0.04397,
+        "joint_margin_45_deg": 0.05849,
+        "joint_opposite_margin": 0.10781,
+        "joint_channels": 7,
+        "horizontal_projection": 1.3,
+        "candidate_angle_deg": 146.0,
+        "joint_pair_coherence_min": 0.70763,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.421583550702198,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.89226,
+        "joint_unconstrained_coherence": 0.99558,
+        "joint_coherence_loss": 0.10333,
+        "joint_margin_45_deg": 0.0003,
+        "joint_opposite_margin": 0.00057,
+        "joint_channels": 7,
+        "horizontal_projection": 0.1,
+        "candidate_angle_deg": 248.0,
+        "joint_pair_coherence_min": 0.60004,
+        "joint_loss_budget": 0.00662,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.4741910413150743,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96423,
+        "joint_unconstrained_coherence": 0.99609,
+        "joint_coherence_loss": 0.03186,
+        "joint_margin_45_deg": 0.03974,
+        "joint_opposite_margin": 0.07451,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 120.0,
+        "joint_pair_coherence_min": 0.87676,
+        "joint_loss_budget": 0.00586,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.843509586520172,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.8559,
+        "joint_unconstrained_coherence": 0.99078,
+        "joint_coherence_loss": 0.13489,
+        "joint_margin_45_deg": 0.01731,
+        "joint_opposite_margin": 0.03596,
+        "joint_channels": 7,
+        "horizontal_projection": 0.75,
+        "candidate_angle_deg": 230.0,
+        "joint_pair_coherence_min": 0.29381,
+        "joint_loss_budget": 0.01382,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.400580800545228,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93492,
+        "joint_unconstrained_coherence": 0.98707,
+        "joint_coherence_loss": 0.05215,
+        "joint_margin_45_deg": 0.04851,
+        "joint_opposite_margin": 0.08658,
+        "joint_channels": 7,
+        "horizontal_projection": 1.15,
+        "candidate_angle_deg": 242.0,
+        "joint_pair_coherence_min": 0.82282,
+        "joint_loss_budget": 0.01939,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.021191869413489,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.92612,
+        "joint_unconstrained_coherence": 0.98749,
+        "joint_coherence_loss": 0.06137,
+        "joint_margin_45_deg": 0.07539,
+        "joint_opposite_margin": 0.14764,
+        "joint_channels": 7,
+        "horizontal_projection": 1.55,
+        "candidate_angle_deg": 166.0,
+        "joint_pair_coherence_min": 0.77299,
+        "joint_loss_budget": 0.01877,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.505715263135457,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.90371,
+        "joint_unconstrained_coherence": 0.98716,
+        "joint_coherence_loss": 0.08345,
+        "joint_margin_45_deg": 0.0193,
+        "joint_opposite_margin": 0.03774,
+        "joint_channels": 7,
+        "horizontal_projection": 0.75,
+        "candidate_angle_deg": 90.0,
+        "joint_pair_coherence_min": 0.5173,
+        "joint_loss_budget": 0.01926,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.365262386276294,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.89823,
+        "joint_unconstrained_coherence": 0.99087,
+        "joint_coherence_loss": 0.09265,
+        "joint_margin_45_deg": 0.01398,
+        "joint_opposite_margin": 0.0267,
+        "joint_channels": 7,
+        "horizontal_projection": 0.6,
+        "candidate_angle_deg": 278.0,
+        "joint_pair_coherence_min": 0.63605,
+        "joint_loss_budget": 0.01369,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.2355120442277148,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94013,
+        "joint_unconstrained_coherence": 0.99785,
+        "joint_coherence_loss": 0.05772,
+        "joint_margin_45_deg": 0.00379,
+        "joint_opposite_margin": 0.00748,
+        "joint_channels": 7,
+        "horizontal_projection": 0.3,
+        "candidate_angle_deg": 132.0,
+        "joint_pair_coherence_min": 0.72168,
+        "joint_loss_budget": 0.00323,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.071529726335531,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.88839,
+        "joint_unconstrained_coherence": 0.98507,
+        "joint_coherence_loss": 0.09669,
+        "joint_margin_45_deg": 0.01548,
+        "joint_opposite_margin": 0.03124,
+        "joint_channels": 7,
+        "horizontal_projection": 0.7,
+        "candidate_angle_deg": 268.0,
+        "joint_pair_coherence_min": 0.44629,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.833687866618552,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95247,
+        "joint_unconstrained_coherence": 0.98858,
+        "joint_coherence_loss": 0.03612,
+        "joint_margin_45_deg": 0.0761,
+        "joint_opposite_margin": 0.14352,
+        "joint_channels": 7,
+        "horizontal_projection": 1.4,
+        "candidate_angle_deg": 248.0,
+        "joint_pair_coherence_min": 0.86277,
+        "joint_loss_budget": 0.01713,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.9321972391649234,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94699,
+        "joint_unconstrained_coherence": 0.97377,
+        "joint_coherence_loss": 0.02679,
+        "joint_margin_45_deg": 0.10632,
+        "joint_opposite_margin": 0.18345,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 326.0,
+        "joint_pair_coherence_min": 0.79287,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.823414704576856,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.89667,
+        "joint_unconstrained_coherence": 0.98158,
+        "joint_coherence_loss": 0.08491,
+        "joint_margin_45_deg": 0.04712,
+        "joint_opposite_margin": 0.09326,
+        "joint_channels": 7,
+        "horizontal_projection": 1.2,
+        "candidate_angle_deg": 218.0,
+        "joint_pair_coherence_min": 0.57581,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.496640625362292,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.91245,
+        "joint_unconstrained_coherence": 0.98363,
+        "joint_coherence_loss": 0.07118,
+        "joint_margin_45_deg": 0.01678,
+        "joint_opposite_margin": 0.03281,
+        "joint_channels": 7,
+        "horizontal_projection": 0.65,
+        "candidate_angle_deg": 320.0,
+        "joint_pair_coherence_min": 0.56728,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.099016607539392,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.90811,
+        "joint_unconstrained_coherence": 0.99496,
+        "joint_coherence_loss": 0.08685,
+        "joint_margin_45_deg": 0.00143,
+        "joint_opposite_margin": 0.00267,
+        "joint_channels": 7,
+        "horizontal_projection": 0.2,
+        "candidate_angle_deg": 196.0,
+        "joint_pair_coherence_min": 0.66466,
+        "joint_loss_budget": 0.00756,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.932273681280566,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94288,
+        "joint_unconstrained_coherence": 0.96893,
+        "joint_coherence_loss": 0.02604,
+        "joint_margin_45_deg": 0.12265,
+        "joint_opposite_margin": 0.20058,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 38.0,
+        "joint_pair_coherence_min": 0.74167,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 6.401539570116715,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 19,
+        "joint_spectral_coherence": 0.83977,
+        "joint_unconstrained_coherence": 0.97404,
+        "joint_coherence_loss": 0.13427,
+        "joint_margin_45_deg": 0.03262,
+        "joint_opposite_margin": 0.06031,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 34.0,
+        "joint_pair_coherence_min": 0.47513,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.507501716953622,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.89024,
+        "joint_unconstrained_coherence": 0.98634,
+        "joint_coherence_loss": 0.09609,
+        "joint_margin_45_deg": 0.04198,
+        "joint_opposite_margin": 0.08157,
+        "joint_channels": 7,
+        "horizontal_projection": 1.15,
+        "candidate_angle_deg": 184.0,
+        "joint_pair_coherence_min": 0.5588,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.596398504629392,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.89857,
+        "joint_unconstrained_coherence": 0.99155,
+        "joint_coherence_loss": 0.09298,
+        "joint_margin_45_deg": 0.01071,
+        "joint_opposite_margin": 0.02134,
+        "joint_channels": 7,
+        "horizontal_projection": 0.55,
+        "candidate_angle_deg": 278.0,
+        "joint_pair_coherence_min": 0.47498,
+        "joint_loss_budget": 0.01267,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.5537050431940855,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93526,
+        "joint_unconstrained_coherence": 0.99224,
+        "joint_coherence_loss": 0.05698,
+        "joint_margin_45_deg": 0.03468,
+        "joint_opposite_margin": 0.06668,
+        "joint_channels": 7,
+        "horizontal_projection": 0.95,
+        "candidate_angle_deg": 32.0,
+        "joint_pair_coherence_min": 0.64962,
+        "joint_loss_budget": 0.01164,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.972434085681557,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.87869,
+        "joint_unconstrained_coherence": 0.98809,
+        "joint_coherence_loss": 0.1094,
+        "joint_margin_45_deg": 0.01527,
+        "joint_opposite_margin": 0.02868,
+        "joint_channels": 7,
+        "horizontal_projection": 0.65,
+        "candidate_angle_deg": 338.0,
+        "joint_pair_coherence_min": 0.53832,
+        "joint_loss_budget": 0.01786,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.067444304168904,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.89186,
+        "joint_unconstrained_coherence": 0.98481,
+        "joint_coherence_loss": 0.09296,
+        "joint_margin_45_deg": 0.02958,
+        "joint_opposite_margin": 0.05006,
+        "joint_channels": 7,
+        "horizontal_projection": 0.9,
+        "candidate_angle_deg": 60.0,
+        "joint_pair_coherence_min": 0.61121,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.7762518392275113,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.9567,
+        "joint_unconstrained_coherence": 0.99154,
+        "joint_coherence_loss": 0.03484,
+        "joint_margin_45_deg": 0.04797,
+        "joint_opposite_margin": 0.08591,
+        "joint_channels": 7,
+        "horizontal_projection": 1.1,
+        "candidate_angle_deg": 188.0,
+        "joint_pair_coherence_min": 0.8461,
+        "joint_loss_budget": 0.01268,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.067895058334028,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.97419,
+        "joint_unconstrained_coherence": 0.99727,
+        "joint_coherence_loss": 0.02307,
+        "joint_margin_45_deg": 0.06259,
+        "joint_opposite_margin": 0.11364,
+        "joint_channels": 7,
+        "horizontal_projection": 1.25,
+        "candidate_angle_deg": 192.0,
+        "joint_pair_coherence_min": 0.88905,
+        "joint_loss_budget": 0.0041,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.265939693060854,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.9381,
+        "joint_unconstrained_coherence": 0.99767,
+        "joint_coherence_loss": 0.05957,
+        "joint_margin_45_deg": 0.0113,
+        "joint_opposite_margin": 0.02197,
+        "joint_channels": 7,
+        "horizontal_projection": 0.55,
+        "candidate_angle_deg": 262.0,
+        "joint_pair_coherence_min": 0.76424,
+        "joint_loss_budget": 0.0035,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.606179594598077,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96089,
+        "joint_unconstrained_coherence": 0.99454,
+        "joint_coherence_loss": 0.03365,
+        "joint_margin_45_deg": 0.04367,
+        "joint_opposite_margin": 0.08078,
+        "joint_channels": 7,
+        "horizontal_projection": 1.05,
+        "candidate_angle_deg": 218.0,
+        "joint_pair_coherence_min": 0.83847,
+        "joint_loss_budget": 0.00819,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.684505625483858,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95679,
+        "joint_unconstrained_coherence": 0.9994,
+        "joint_coherence_loss": 0.04262,
+        "joint_margin_45_deg": 0.01165,
+        "joint_opposite_margin": 0.02279,
+        "joint_channels": 7,
+        "horizontal_projection": 0.55,
+        "candidate_angle_deg": 146.0,
+        "joint_pair_coherence_min": 0.84757,
+        "joint_loss_budget": 0.002,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.0863363699436235,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.92932,
+        "joint_unconstrained_coherence": 0.98718,
+        "joint_coherence_loss": 0.05785,
+        "joint_margin_45_deg": 0.07188,
+        "joint_opposite_margin": 0.12957,
+        "joint_channels": 7,
+        "horizontal_projection": 1.4,
+        "candidate_angle_deg": 266.0,
+        "joint_pair_coherence_min": 0.7033,
+        "joint_loss_budget": 0.01924,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.051625989494305,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94666,
+        "joint_unconstrained_coherence": 0.99358,
+        "joint_coherence_loss": 0.04692,
+        "joint_margin_45_deg": 0.03914,
+        "joint_opposite_margin": 0.07672,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 126.0,
+        "joint_pair_coherence_min": 0.80201,
+        "joint_loss_budget": 0.00963,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.207751897856026,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93923,
+        "joint_unconstrained_coherence": 0.9989,
+        "joint_coherence_loss": 0.05967,
+        "joint_margin_45_deg": 0.00845,
+        "joint_opposite_margin": 0.01616,
+        "joint_channels": 7,
+        "horizontal_projection": 0.45,
+        "candidate_angle_deg": 86.0,
+        "joint_pair_coherence_min": 0.7735,
+        "joint_loss_budget": 0.002,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.2639387566778915,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.85616,
+        "joint_unconstrained_coherence": 0.98405,
+        "joint_coherence_loss": 0.12789,
+        "joint_margin_45_deg": 0.00836,
+        "joint_opposite_margin": 0.01702,
+        "joint_channels": 7,
+        "horizontal_projection": 0.5,
+        "candidate_angle_deg": 60.0,
+        "joint_pair_coherence_min": 0.62617,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.6200795962000125,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.92885,
+        "joint_unconstrained_coherence": 0.99333,
+        "joint_coherence_loss": 0.06448,
+        "joint_margin_45_deg": 0.01491,
+        "joint_opposite_margin": 0.02874,
+        "joint_channels": 7,
+        "horizontal_projection": 0.6,
+        "candidate_angle_deg": 26.0,
+        "joint_pair_coherence_min": 0.69717,
+        "joint_loss_budget": 0.01001,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.19684594633418,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94188,
+        "joint_unconstrained_coherence": 0.9932,
+        "joint_coherence_loss": 0.05132,
+        "joint_margin_45_deg": 0.0492,
+        "joint_opposite_margin": 0.09431,
+        "joint_channels": 7,
+        "horizontal_projection": 1.15,
+        "candidate_angle_deg": 336.0,
+        "joint_pair_coherence_min": 0.80675,
+        "joint_loss_budget": 0.0102,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.6813381281341737,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95998,
+        "joint_unconstrained_coherence": 0.99057,
+        "joint_coherence_loss": 0.03059,
+        "joint_margin_45_deg": 0.05504,
+        "joint_opposite_margin": 0.09968,
+        "joint_channels": 7,
+        "horizontal_projection": 1.2,
+        "candidate_angle_deg": 82.0,
+        "joint_pair_coherence_min": 0.80848,
+        "joint_loss_budget": 0.01414,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.222987890884315,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.87525,
+        "joint_unconstrained_coherence": 0.99031,
+        "joint_coherence_loss": 0.11506,
+        "joint_margin_45_deg": 0.02119,
+        "joint_opposite_margin": 0.04131,
+        "joint_channels": 7,
+        "horizontal_projection": 0.8,
+        "candidate_angle_deg": 30.0,
+        "joint_pair_coherence_min": 0.4624,
+        "joint_loss_budget": 0.01453,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 6.043855690035277,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.84541,
+        "joint_unconstrained_coherence": 0.97933,
+        "joint_coherence_loss": 0.13392,
+        "joint_margin_45_deg": 0.03093,
+        "joint_opposite_margin": 0.07032,
+        "joint_channels": 7,
+        "horizontal_projection": 1.05,
+        "candidate_angle_deg": 326.0,
+        "joint_pair_coherence_min": 0.48955,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.383325166232751,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96682,
+        "joint_unconstrained_coherence": 0.9981,
+        "joint_coherence_loss": 0.03128,
+        "joint_margin_45_deg": 0.02194,
+        "joint_opposite_margin": 0.0416,
+        "joint_channels": 7,
+        "horizontal_projection": 0.75,
+        "candidate_angle_deg": 114.0,
+        "joint_pair_coherence_min": 0.85882,
+        "joint_loss_budget": 0.00286,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.1963436752608345,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.91391,
+        "joint_unconstrained_coherence": 0.96907,
+        "joint_coherence_loss": 0.05516,
+        "joint_margin_45_deg": 0.08967,
+        "joint_opposite_margin": 0.13577,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 106.0,
+        "joint_pair_coherence_min": 0.65563,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.501777738918605,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93062,
+        "joint_unconstrained_coherence": 0.99469,
+        "joint_coherence_loss": 0.06407,
+        "joint_margin_45_deg": 0.03192,
+        "joint_opposite_margin": 0.0602,
+        "joint_channels": 7,
+        "horizontal_projection": 0.95,
+        "candidate_angle_deg": 244.0,
+        "joint_pair_coherence_min": 0.7187,
+        "joint_loss_budget": 0.00796,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.944874429099875,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95272,
+        "joint_unconstrained_coherence": 0.98893,
+        "joint_coherence_loss": 0.0362,
+        "joint_margin_45_deg": 0.06686,
+        "joint_opposite_margin": 0.12803,
+        "joint_channels": 7,
+        "horizontal_projection": 1.3,
+        "candidate_angle_deg": 232.0,
+        "joint_pair_coherence_min": 0.7508,
+        "joint_loss_budget": 0.01661,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.886239833714293,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.894,
+        "joint_unconstrained_coherence": 0.99009,
+        "joint_coherence_loss": 0.09609,
+        "joint_margin_45_deg": 0.01078,
+        "joint_opposite_margin": 0.01954,
+        "joint_channels": 7,
+        "horizontal_projection": 0.55,
+        "candidate_angle_deg": 234.0,
+        "joint_pair_coherence_min": 0.38889,
+        "joint_loss_budget": 0.01487,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.088550259786605,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.97396,
+        "joint_unconstrained_coherence": 0.99319,
+        "joint_coherence_loss": 0.01923,
+        "joint_margin_45_deg": 0.07164,
+        "joint_opposite_margin": 0.13523,
+        "joint_channels": 7,
+        "horizontal_projection": 1.35,
+        "candidate_angle_deg": 84.0,
+        "joint_pair_coherence_min": 0.90205,
+        "joint_loss_budget": 0.01021,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.865013143715022,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95686,
+        "joint_unconstrained_coherence": 0.97875,
+        "joint_coherence_loss": 0.0219,
+        "joint_margin_45_deg": 0.09523,
+        "joint_opposite_margin": 0.15812,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 194.0,
+        "joint_pair_coherence_min": 0.78762,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.080822045776155,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.921,
+        "joint_unconstrained_coherence": 0.97109,
+        "joint_coherence_loss": 0.05009,
+        "joint_margin_45_deg": 0.08904,
+        "joint_opposite_margin": 0.17784,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 62.0,
+        "joint_pair_coherence_min": 0.63641,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.305161752217743,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.85824,
+        "joint_unconstrained_coherence": 0.98275,
+        "joint_coherence_loss": 0.12451,
+        "joint_margin_45_deg": 0.00907,
+        "joint_opposite_margin": 0.01665,
+        "joint_channels": 7,
+        "horizontal_projection": 0.5,
+        "candidate_angle_deg": 102.0,
+        "joint_pair_coherence_min": 0.5892,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.4360447087620125,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 19,
+        "joint_spectral_coherence": 0.86381,
+        "joint_unconstrained_coherence": 0.94619,
+        "joint_coherence_loss": 0.08238,
+        "joint_margin_45_deg": 0.09393,
+        "joint_opposite_margin": 0.1413,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 2.0,
+        "joint_pair_coherence_min": 0.51828,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.5983164939088086,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96094,
+        "joint_unconstrained_coherence": 0.9942,
+        "joint_coherence_loss": 0.03326,
+        "joint_margin_45_deg": 0.06103,
+        "joint_opposite_margin": 0.11237,
+        "joint_channels": 7,
+        "horizontal_projection": 1.25,
+        "candidate_angle_deg": 42.0,
+        "joint_pair_coherence_min": 0.83567,
+        "joint_loss_budget": 0.0087,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.310382633620314,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.86386,
+        "joint_unconstrained_coherence": 0.98723,
+        "joint_coherence_loss": 0.12337,
+        "joint_margin_45_deg": 0.00389,
+        "joint_opposite_margin": 0.0083,
+        "joint_channels": 7,
+        "horizontal_projection": 0.35,
+        "candidate_angle_deg": 136.0,
+        "joint_pair_coherence_min": 0.39142,
+        "joint_loss_budget": 0.01915,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.411798980348622,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96504,
+        "joint_unconstrained_coherence": 0.9983,
+        "joint_coherence_loss": 0.03326,
+        "joint_margin_45_deg": 0.03951,
+        "joint_opposite_margin": 0.07412,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 260.0,
+        "joint_pair_coherence_min": 0.86278,
+        "joint_loss_budget": 0.00255,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.246718228295838,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.86308,
+        "joint_unconstrained_coherence": 0.98348,
+        "joint_coherence_loss": 0.1204,
+        "joint_margin_45_deg": 0.01667,
+        "joint_opposite_margin": 0.03065,
+        "joint_channels": 7,
+        "horizontal_projection": 0.75,
+        "candidate_angle_deg": 238.0,
+        "joint_pair_coherence_min": 0.44208,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.991427732610384,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94694,
+        "joint_unconstrained_coherence": 0.99712,
+        "joint_coherence_loss": 0.05018,
+        "joint_margin_45_deg": 0.03729,
+        "joint_opposite_margin": 0.07036,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 90.0,
+        "joint_pair_coherence_min": 0.79321,
+        "joint_loss_budget": 0.00432,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.825070171902936,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.9446,
+        "joint_unconstrained_coherence": 0.96104,
+        "joint_coherence_loss": 0.01644,
+        "joint_margin_45_deg": 0.11409,
+        "joint_opposite_margin": 0.18224,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 96.0,
+        "joint_pair_coherence_min": 0.73864,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.0869038283707,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.9202,
+        "joint_unconstrained_coherence": 0.98904,
+        "joint_coherence_loss": 0.06884,
+        "joint_margin_45_deg": 0.03975,
+        "joint_opposite_margin": 0.07546,
+        "joint_channels": 7,
+        "horizontal_projection": 1.05,
+        "candidate_angle_deg": 274.0,
+        "joint_pair_coherence_min": 0.60793,
+        "joint_loss_budget": 0.01644,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.310473138088023,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.92292,
+        "joint_unconstrained_coherence": 0.98301,
+        "joint_coherence_loss": 0.06009,
+        "joint_margin_45_deg": 0.08533,
+        "joint_opposite_margin": 0.14662,
+        "joint_channels": 7,
+        "horizontal_projection": 1.45,
+        "candidate_angle_deg": 356.0,
+        "joint_pair_coherence_min": 0.60726,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.664782490537669,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.90136,
+        "joint_unconstrained_coherence": 0.9863,
+        "joint_coherence_loss": 0.08493,
+        "joint_margin_45_deg": 0.02658,
+        "joint_opposite_margin": 0.05968,
+        "joint_channels": 7,
+        "horizontal_projection": 0.9,
+        "candidate_angle_deg": 130.0,
+        "joint_pair_coherence_min": 0.52764,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.263062925521741,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.86871,
+        "joint_unconstrained_coherence": 0.98328,
+        "joint_coherence_loss": 0.11457,
+        "joint_margin_45_deg": 0.01498,
+        "joint_opposite_margin": 0.0285,
+        "joint_channels": 7,
+        "horizontal_projection": 0.7,
+        "candidate_angle_deg": 32.0,
+        "joint_pair_coherence_min": 0.41822,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.5475288994118714,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.9308,
+        "joint_unconstrained_coherence": 0.99395,
+        "joint_coherence_loss": 0.06315,
+        "joint_margin_45_deg": 0.02128,
+        "joint_opposite_margin": 0.04302,
+        "joint_channels": 7,
+        "horizontal_projection": 0.75,
+        "candidate_angle_deg": 326.0,
+        "joint_pair_coherence_min": 0.66327,
+        "joint_loss_budget": 0.00908,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.522947693949428,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.9619,
+        "joint_unconstrained_coherence": 0.99808,
+        "joint_coherence_loss": 0.03618,
+        "joint_margin_45_deg": 0.04177,
+        "joint_opposite_margin": 0.07844,
+        "joint_channels": 7,
+        "horizontal_projection": 1.05,
+        "candidate_angle_deg": 308.0,
+        "joint_pair_coherence_min": 0.88305,
+        "joint_loss_budget": 0.00288,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.817648847834783,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.89106,
+        "joint_unconstrained_coherence": 0.98681,
+        "joint_coherence_loss": 0.09574,
+        "joint_margin_45_deg": 0.01603,
+        "joint_opposite_margin": 0.03067,
+        "joint_channels": 7,
+        "horizontal_projection": 0.65,
+        "candidate_angle_deg": 150.0,
+        "joint_pair_coherence_min": 0.48917,
+        "joint_loss_budget": 0.01979,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.5753162852087295,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.85505,
+        "joint_unconstrained_coherence": 0.97651,
+        "joint_coherence_loss": 0.12146,
+        "joint_margin_45_deg": 0.02687,
+        "joint_opposite_margin": 0.05682,
+        "joint_channels": 7,
+        "horizontal_projection": 0.95,
+        "candidate_angle_deg": 272.0,
+        "joint_pair_coherence_min": 0.30551,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.887095086159813,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95208,
+        "joint_unconstrained_coherence": 0.99556,
+        "joint_coherence_loss": 0.04348,
+        "joint_margin_45_deg": 0.03942,
+        "joint_opposite_margin": 0.07209,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 238.0,
+        "joint_pair_coherence_min": 0.8029,
+        "joint_loss_budget": 0.00666,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.819793283563288,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.9544,
+        "joint_unconstrained_coherence": 0.98702,
+        "joint_coherence_loss": 0.03263,
+        "joint_margin_45_deg": 0.08154,
+        "joint_opposite_margin": 0.1568,
+        "joint_channels": 7,
+        "horizontal_projection": 1.5,
+        "candidate_angle_deg": 12.0,
+        "joint_pair_coherence_min": 0.78749,
+        "joint_loss_budget": 0.01946,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.2449196231179345,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.91273,
+        "joint_unconstrained_coherence": 0.96485,
+        "joint_coherence_loss": 0.05212,
+        "joint_margin_45_deg": 0.08403,
+        "joint_opposite_margin": 0.13737,
+        "joint_channels": 7,
+        "horizontal_projection": 1.55,
+        "candidate_angle_deg": 206.0,
+        "joint_pair_coherence_min": 0.65105,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.8815131140685146,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.93314,
+        "joint_unconstrained_coherence": 0.98581,
+        "joint_coherence_loss": 0.05267,
+        "joint_margin_45_deg": 0.0783,
+        "joint_opposite_margin": 0.13482,
+        "joint_channels": 7,
+        "horizontal_projection": 1.4,
+        "candidate_angle_deg": 186.0,
+        "joint_pair_coherence_min": 0.71519,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.289551017471659,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.90754,
+        "joint_unconstrained_coherence": 0.9842,
+        "joint_coherence_loss": 0.07666,
+        "joint_margin_45_deg": 0.05132,
+        "joint_opposite_margin": 0.09838,
+        "joint_channels": 7,
+        "horizontal_projection": 1.2,
+        "candidate_angle_deg": 106.0,
+        "joint_pair_coherence_min": 0.59493,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.728262410861817,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.86031,
+        "joint_unconstrained_coherence": 0.9841,
+        "joint_coherence_loss": 0.12379,
+        "joint_margin_45_deg": 0.0196,
+        "joint_opposite_margin": 0.03722,
+        "joint_channels": 7,
+        "horizontal_projection": 0.75,
+        "candidate_angle_deg": 322.0,
+        "joint_pair_coherence_min": 0.32019,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.557068277480468,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.88912,
+        "joint_unconstrained_coherence": 0.98579,
+        "joint_coherence_loss": 0.09667,
+        "joint_margin_45_deg": 0.02071,
+        "joint_opposite_margin": 0.03983,
+        "joint_channels": 7,
+        "horizontal_projection": 0.8,
+        "candidate_angle_deg": 282.0,
+        "joint_pair_coherence_min": 0.67721,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.124394982975357,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.89371,
+        "joint_unconstrained_coherence": 0.98486,
+        "joint_coherence_loss": 0.09115,
+        "joint_margin_45_deg": 0.03052,
+        "joint_opposite_margin": 0.06877,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 294.0,
+        "joint_pair_coherence_min": 0.38007,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.146851077255526,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.91093,
+        "joint_unconstrained_coherence": 0.98931,
+        "joint_coherence_loss": 0.07838,
+        "joint_margin_45_deg": 0.0214,
+        "joint_opposite_margin": 0.04219,
+        "joint_channels": 7,
+        "horizontal_projection": 0.75,
+        "candidate_angle_deg": 252.0,
+        "joint_pair_coherence_min": 0.59206,
+        "joint_loss_budget": 0.01604,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.0564883152756215,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.97515,
+        "joint_unconstrained_coherence": 0.99606,
+        "joint_coherence_loss": 0.02091,
+        "joint_margin_45_deg": 0.05674,
+        "joint_opposite_margin": 0.10703,
+        "joint_channels": 7,
+        "horizontal_projection": 1.2,
+        "candidate_angle_deg": 352.0,
+        "joint_pair_coherence_min": 0.87422,
+        "joint_loss_budget": 0.00591,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.1243221753361436,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.956,
+        "joint_unconstrained_coherence": 0.98016,
+        "joint_coherence_loss": 0.02417,
+        "joint_margin_45_deg": 0.08417,
+        "joint_opposite_margin": 0.14262,
+        "joint_channels": 7,
+        "horizontal_projection": 1.5,
+        "candidate_angle_deg": 324.0,
+        "joint_pair_coherence_min": 0.73097,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.1247873636708827,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.97437,
+        "joint_unconstrained_coherence": 0.98776,
+        "joint_coherence_loss": 0.01339,
+        "joint_margin_45_deg": 0.08263,
+        "joint_opposite_margin": 0.14385,
+        "joint_channels": 7,
+        "horizontal_projection": 1.45,
+        "candidate_angle_deg": 42.0,
+        "joint_pair_coherence_min": 0.88561,
+        "joint_loss_budget": 0.01835,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.493757471939285,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.8635,
+        "joint_unconstrained_coherence": 0.98203,
+        "joint_coherence_loss": 0.11852,
+        "joint_margin_45_deg": 0.02319,
+        "joint_opposite_margin": 0.05021,
+        "joint_channels": 7,
+        "horizontal_projection": 0.85,
+        "candidate_angle_deg": 314.0,
+        "joint_pair_coherence_min": 0.45905,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.4274132345677675,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93353,
+        "joint_unconstrained_coherence": 0.97649,
+        "joint_coherence_loss": 0.04296,
+        "joint_margin_45_deg": 0.09736,
+        "joint_opposite_margin": 0.17735,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 154.0,
+        "joint_pair_coherence_min": 0.71804,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.3128340472737876,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94042,
+        "joint_unconstrained_coherence": 0.99335,
+        "joint_coherence_loss": 0.05294,
+        "joint_margin_45_deg": 0.03935,
+        "joint_opposite_margin": 0.07544,
+        "joint_channels": 7,
+        "horizontal_projection": 1.05,
+        "candidate_angle_deg": 260.0,
+        "joint_pair_coherence_min": 0.73496,
+        "joint_loss_budget": 0.00997,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.2355494658924,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94284,
+        "joint_unconstrained_coherence": 0.99062,
+        "joint_coherence_loss": 0.04778,
+        "joint_margin_45_deg": 0.05771,
+        "joint_opposite_margin": 0.10798,
+        "joint_channels": 7,
+        "horizontal_projection": 1.2,
+        "candidate_angle_deg": 256.0,
+        "joint_pair_coherence_min": 0.71959,
+        "joint_loss_budget": 0.01408,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.9771067321788904,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94771,
+        "joint_unconstrained_coherence": 0.99457,
+        "joint_coherence_loss": 0.04686,
+        "joint_margin_45_deg": 0.04423,
+        "joint_opposite_margin": 0.08514,
+        "joint_channels": 7,
+        "horizontal_projection": 1.1,
+        "candidate_angle_deg": 28.0,
+        "joint_pair_coherence_min": 0.79645,
+        "joint_loss_budget": 0.00815,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.7025359820866606,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95692,
+        "joint_unconstrained_coherence": 0.9932,
+        "joint_coherence_loss": 0.03627,
+        "joint_margin_45_deg": 0.05907,
+        "joint_opposite_margin": 0.11068,
+        "joint_channels": 7,
+        "horizontal_projection": 1.25,
+        "candidate_angle_deg": 60.0,
+        "joint_pair_coherence_min": 0.82345,
+        "joint_loss_budget": 0.0102,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.703576621682957,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95636,
+        "joint_unconstrained_coherence": 0.99904,
+        "joint_coherence_loss": 0.04267,
+        "joint_margin_45_deg": 0.01782,
+        "joint_opposite_margin": 0.0338,
+        "joint_channels": 7,
+        "horizontal_projection": 0.7,
+        "candidate_angle_deg": 168.0,
+        "joint_pair_coherence_min": 0.87083,
+        "joint_loss_budget": 0.002,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.562596344114712,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 20,
+        "joint_spectral_coherence": 0.90613,
+        "joint_unconstrained_coherence": 0.98462,
+        "joint_coherence_loss": 0.07849,
+        "joint_margin_45_deg": 0.05486,
+        "joint_opposite_margin": 0.09959,
+        "joint_channels": 7,
+        "horizontal_projection": 1.25,
+        "candidate_angle_deg": 106.0,
+        "joint_pair_coherence_min": 0.57893,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.5209970841499194,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.92851,
+        "joint_unconstrained_coherence": 0.99409,
+        "joint_coherence_loss": 0.06558,
+        "joint_margin_45_deg": 0.03804,
+        "joint_opposite_margin": 0.07169,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 26.0,
+        "joint_pair_coherence_min": 0.72656,
+        "joint_loss_budget": 0.00887,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.926051782985412,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95164,
+        "joint_unconstrained_coherence": 0.99483,
+        "joint_coherence_loss": 0.04319,
+        "joint_margin_45_deg": 0.03651,
+        "joint_opposite_margin": 0.07339,
+        "joint_channels": 7,
+        "horizontal_projection": 1.0,
+        "candidate_angle_deg": 178.0,
+        "joint_pair_coherence_min": 0.77214,
+        "joint_loss_budget": 0.00776,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 5.0324839012932445,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.87766,
+        "joint_unconstrained_coherence": 0.98449,
+        "joint_coherence_loss": 0.10683,
+        "joint_margin_45_deg": 0.02446,
+        "joint_opposite_margin": 0.04551,
+        "joint_channels": 7,
+        "horizontal_projection": 0.8,
+        "candidate_angle_deg": 254.0,
+        "joint_pair_coherence_min": 0.55246,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.879984622231521,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95705,
+        "joint_unconstrained_coherence": 0.9905,
+        "joint_coherence_loss": 0.03345,
+        "joint_margin_45_deg": 0.06074,
+        "joint_opposite_margin": 0.10659,
+        "joint_channels": 7,
+        "horizontal_projection": 1.25,
+        "candidate_angle_deg": 354.0,
+        "joint_pair_coherence_min": 0.75669,
+        "joint_loss_budget": 0.01425,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.4372755597511047,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96325,
+        "joint_unconstrained_coherence": 0.97729,
+        "joint_coherence_loss": 0.01404,
+        "joint_margin_45_deg": 0.10474,
+        "joint_opposite_margin": 0.17882,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 74.0,
+        "joint_pair_coherence_min": 0.83392,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.714010774626015,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.89402,
+        "joint_unconstrained_coherence": 0.99348,
+        "joint_coherence_loss": 0.09946,
+        "joint_margin_45_deg": 0.01892,
+        "joint_opposite_margin": 0.04061,
+        "joint_channels": 7,
+        "horizontal_projection": 0.75,
+        "candidate_angle_deg": 278.0,
+        "joint_pair_coherence_min": 0.48122,
+        "joint_loss_budget": 0.00978,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.294491036120545,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.90686,
+        "joint_unconstrained_coherence": 0.98269,
+        "joint_coherence_loss": 0.07583,
+        "joint_margin_45_deg": 0.05088,
+        "joint_opposite_margin": 0.09382,
+        "joint_channels": 7,
+        "horizontal_projection": 1.2,
+        "candidate_angle_deg": 38.0,
+        "joint_pair_coherence_min": 0.62949,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.968893485986508,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.89271,
+        "joint_unconstrained_coherence": 0.98346,
+        "joint_coherence_loss": 0.09075,
+        "joint_margin_45_deg": 0.01438,
+        "joint_opposite_margin": 0.02913,
+        "joint_channels": 7,
+        "horizontal_projection": 0.6,
+        "candidate_angle_deg": 210.0,
+        "joint_pair_coherence_min": 0.40857,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.365009954650739,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93525,
+        "joint_unconstrained_coherence": 0.97208,
+        "joint_coherence_loss": 0.03683,
+        "joint_margin_45_deg": 0.10862,
+        "joint_opposite_margin": 0.17916,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 296.0,
+        "joint_pair_coherence_min": 0.69327,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.9707756234403777,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.94822,
+        "joint_unconstrained_coherence": 0.9976,
+        "joint_coherence_loss": 0.04938,
+        "joint_margin_45_deg": 0.02305,
+        "joint_opposite_margin": 0.04604,
+        "joint_channels": 7,
+        "horizontal_projection": 0.8,
+        "candidate_angle_deg": 100.0,
+        "joint_pair_coherence_min": 0.81132,
+        "joint_loss_budget": 0.0036,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.005548577515182,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.90979,
+        "joint_unconstrained_coherence": 0.99225,
+        "joint_coherence_loss": 0.08246,
+        "joint_margin_45_deg": 0.02763,
+        "joint_opposite_margin": 0.05156,
+        "joint_channels": 7,
+        "horizontal_projection": 0.85,
+        "candidate_angle_deg": 196.0,
+        "joint_pair_coherence_min": 0.75247,
+        "joint_loss_budget": 0.01163,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 3.373802693286838,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.93401,
+        "joint_unconstrained_coherence": 0.99471,
+        "joint_coherence_loss": 0.0607,
+        "joint_margin_45_deg": 0.03503,
+        "joint_opposite_margin": 0.06532,
+        "joint_channels": 7,
+        "horizontal_projection": 0.95,
+        "candidate_angle_deg": 84.0,
+        "joint_pair_coherence_min": 0.77805,
+        "joint_loss_budget": 0.00794,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.9461468813894816,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.95003,
+        "joint_unconstrained_coherence": 0.98853,
+        "joint_coherence_loss": 0.0385,
+        "joint_margin_45_deg": 0.07742,
+        "joint_opposite_margin": 0.14192,
+        "joint_channels": 7,
+        "horizontal_projection": 1.55,
+        "candidate_angle_deg": 348.0,
+        "joint_pair_coherence_min": 0.78971,
+        "joint_loss_budget": 0.01721,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.383283070129069,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 19,
+        "joint_spectral_coherence": 0.91667,
+        "joint_unconstrained_coherence": 0.97618,
+        "joint_coherence_loss": 0.05951,
+        "joint_margin_45_deg": 0.09864,
+        "joint_opposite_margin": 0.16851,
+        "joint_channels": 7,
+        "horizontal_projection": 1.6,
+        "candidate_angle_deg": 232.0,
+        "joint_pair_coherence_min": 0.69935,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 2.5699384618047483,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.96407,
+        "joint_unconstrained_coherence": 0.98311,
+        "joint_coherence_loss": 0.01903,
+        "joint_margin_45_deg": 0.08458,
+        "joint_opposite_margin": 0.14215,
+        "joint_channels": 7,
+        "horizontal_projection": 1.45,
+        "candidate_angle_deg": 178.0,
+        "joint_pair_coherence_min": 0.82943,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    },
+    {
+      "rms_samples": 4.403663082693485,
+      "accepted": false,
+      "detail": {
+        "delay_fit": "joint_spectral_delay_consensus",
+        "joint_spectral_pairs": 21,
+        "joint_spectral_coherence": 0.91184,
+        "joint_unconstrained_coherence": 0.98214,
+        "joint_coherence_loss": 0.07029,
+        "joint_margin_45_deg": 0.03466,
+        "joint_opposite_margin": 0.06604,
+        "joint_channels": 7,
+        "horizontal_projection": 1.05,
+        "candidate_angle_deg": 230.0,
+        "joint_pair_coherence_min": 0.48987,
+        "joint_loss_budget": 0.02,
+        "group_delay_reason": "joint_spectral_evidence_weak"
+      }
+    }
+  ]
+}

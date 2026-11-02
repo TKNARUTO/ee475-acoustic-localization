@@ -1,0 +1,258 @@
+{
+  "rows": [
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6635-analysis.json",
+      "sequence": 6630,
+      "code_pnr_db": 21.78,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 2.2805,
+      "median_triangle_closure_samples": 3.3637,
+      "primary_all_pair_rms_samples": 6.6393
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6635-analysis.json",
+      "sequence": 6631,
+      "code_pnr_db": 20.98,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 4.5511,
+      "median_triangle_closure_samples": 4.0123,
+      "primary_all_pair_rms_samples": 8.2926
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6635-analysis.json",
+      "sequence": 6632,
+      "code_pnr_db": 25.39,
+      "fitted_pairs": 20,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 1.8101,
+      "median_triangle_closure_samples": 2.3651,
+      "primary_all_pair_rms_samples": 2.7482
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6635-analysis.json",
+      "sequence": 6633,
+      "code_pnr_db": 22.96,
+      "fitted_pairs": 19,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 4.6385,
+      "median_triangle_closure_samples": 7.125,
+      "primary_all_pair_rms_samples": 7.1872
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6635-analysis.json",
+      "sequence": 6634,
+      "code_pnr_db": 21.1,
+      "fitted_pairs": 19,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 2.2706,
+      "median_triangle_closure_samples": 2.9732,
+      "primary_all_pair_rms_samples": 6.2631
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6635-analysis.json",
+      "sequence": 6635,
+      "code_pnr_db": 19.33,
+      "fitted_pairs": 14,
+      "incidence_rank": 5,
+      "any_arrival_times_rms_samples": 2.9538,
+      "median_triangle_closure_samples": 4.7353,
+      "primary_all_pair_rms_samples": 5.9155
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6635-analysis.json",
+      "sequence": 6636,
+      "code_pnr_db": 13.61,
+      "fitted_pairs": 6,
+      "incidence_rank": 3,
+      "any_arrival_times_rms_samples": 6.8594,
+      "median_triangle_closure_samples": 18.3027,
+      "primary_all_pair_rms_samples": 7.4396
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6635-analysis.json",
+      "sequence": 6637,
+      "code_pnr_db": 18.46,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 2.3951,
+      "median_triangle_closure_samples": 3.5686,
+      "primary_all_pair_rms_samples": 3.4875
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6635-analysis.json",
+      "sequence": 6639,
+      "code_pnr_db": 14.98,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 0.2163,
+      "median_triangle_closure_samples": 0.216,
+      "primary_all_pair_rms_samples": 1.514
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6635-analysis.json",
+      "sequence": 6644,
+      "code_pnr_db": 35.45,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 0.7476,
+      "median_triangle_closure_samples": 0.207,
+      "primary_all_pair_rms_samples": 3.3953
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6635-analysis.json",
+      "sequence": 6646,
+      "code_pnr_db": 35.06,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 0.3613,
+      "median_triangle_closure_samples": 0.6437,
+      "primary_all_pair_rms_samples": 3.0918
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6635-analysis.json",
+      "sequence": 6647,
+      "code_pnr_db": 34.64,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 0.1402,
+      "median_triangle_closure_samples": 0.1262,
+      "primary_all_pair_rms_samples": 3.6226
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6721,
+      "code_pnr_db": 23.52,
+      "fitted_pairs": 18,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 6.5426,
+      "median_triangle_closure_samples": 8.2877,
+      "primary_all_pair_rms_samples": 10.3232
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6722,
+      "code_pnr_db": 17.22,
+      "fitted_pairs": 9,
+      "incidence_rank": 4,
+      "any_arrival_times_rms_samples": 5.8072,
+      "median_triangle_closure_samples": 14.5746,
+      "primary_all_pair_rms_samples": 6.2694
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6723,
+      "code_pnr_db": 14.09,
+      "fitted_pairs": 10,
+      "incidence_rank": 4,
+      "any_arrival_times_rms_samples": 5.1772,
+      "median_triangle_closure_samples": 6.3321,
+      "primary_all_pair_rms_samples": 5.798
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6724,
+      "code_pnr_db": 15.76,
+      "fitted_pairs": 9,
+      "incidence_rank": 4,
+      "any_arrival_times_rms_samples": 5.0919,
+      "median_triangle_closure_samples": 13.7206,
+      "primary_all_pair_rms_samples": 6.0695
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6725,
+      "code_pnr_db": 18.01,
+      "fitted_pairs": 20,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 4.3824,
+      "median_triangle_closure_samples": 6.2731,
+      "primary_all_pair_rms_samples": 5.0525
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6728,
+      "code_pnr_db": 27.47,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 3.6834,
+      "median_triangle_closure_samples": 4.9768,
+      "primary_all_pair_rms_samples": 4.6769
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6729,
+      "code_pnr_db": 28.37,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 1.9895,
+      "median_triangle_closure_samples": 2.1519,
+      "primary_all_pair_rms_samples": 2.8943
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6730,
+      "code_pnr_db": 27.96,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 1.9219,
+      "median_triangle_closure_samples": 2.6519,
+      "primary_all_pair_rms_samples": 2.9227
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6731,
+      "code_pnr_db": 26.16,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 1.3608,
+      "median_triangle_closure_samples": 1.5456,
+      "primary_all_pair_rms_samples": 2.442
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6732,
+      "code_pnr_db": 24.98,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 1.1676,
+      "median_triangle_closure_samples": 1.382,
+      "primary_all_pair_rms_samples": 3.0017
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6733,
+      "code_pnr_db": 22.69,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 3.6839,
+      "median_triangle_closure_samples": 1.8506,
+      "primary_all_pair_rms_samples": 3.9171
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6736,
+      "code_pnr_db": 23.39,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 0.7794,
+      "median_triangle_closure_samples": 1.0344,
+      "primary_all_pair_rms_samples": 3.8401
+    },
+    {
+      "source": "launcher-20261027-175338-954951-delay_rejection-seq6725-analysis.json",
+      "sequence": 6737,
+      "code_pnr_db": 25.5,
+      "fitted_pairs": 21,
+      "incidence_rank": 6,
+      "any_arrival_times_rms_samples": 1.5936,
+      "median_triangle_closure_samples": 1.4133,
+      "primary_all_pair_rms_samples": 3.898
+    }
+  ],
+  "analyzed_rejected_windows": 25,
+  "median_any_arrival_times_rms_samples": 2.2805,
+  "windows_any_arrival_times_rms_over_1_sample": 20,
+  "limitation": "Descriptive closure residual of pair-delay estimates, not a microphone fault diagnosis. Even arbitrary per-channel arrival times cannot remove this residual; geometric fitting can add further error. No ground-truth bearing is available."
+}

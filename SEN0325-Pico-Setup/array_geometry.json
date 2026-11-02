@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "radius_m": 0.04,
+  "sound_speed_m_s": 343.0,
+  "minimum_frequency_hz": 300,
+  "maximum_frequency_hz": 2000,
+  "reference": "D3R_CENTER",
+  "clockwise_degrees_from_U7_M0": {
+    "D0L": 0,
+    "D0R": 60,
+    "D1L": 120,
+    "D1R": 180,
+    "D2L": 240,
+    "D2R": 300
+  },
+  "heading_offset_deg": 0.0,
+  "mirror_view": false,
+  "heading_calibrated": false,
+  "phase_offsets_rad": {},
+  "geometry_source": "Original Sipeed R6+1 Assembly drawing and Schematic; R=40 mm; U7,U8,U13,U14,U19,U20 clockwise, U1 central.",
+  "physical_orientation_verified": false
+}

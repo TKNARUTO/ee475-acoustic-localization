@@ -1,0 +1,18 @@
+[
+  {
+    "package": "platforms;android-35",
+    "url": "https://dl.google.com/android/repository/platform-35-ext15_r01.zip"
+  },
+  {
+    "package": "platforms;android-35",
+    "url": "https://dl.google.com/android/repository/platform-35-ext14_r01.zip"
+  },
+  {
+    "package": "platforms;android-35",
+    "url": "https://dl.google.com/android/repository/platform-35_r02.zip"
+  },
+  {
+    "package": "build-tools;35.0.0",
+    "url": "https://dl.google.com/android/repository/build-tools_r35_windows.zip"
+  }
+]

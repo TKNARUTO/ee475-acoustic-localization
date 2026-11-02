@@ -1,0 +1,25 @@
+{
+  "checked_date": "2026-11-02",
+  "apk": "releases/BeaconLoop-1.0.apk",
+  "apk_sha256": "1df38d58ec1190c04efed8b6b43e87b7cf1a744abbd2d54538af0544d39bbcae",
+  "package": "org.ee475.beaconloop",
+  "version": "1.0",
+  "minimum_sdk": 26,
+  "target_sdk": 35,
+  "signature_v2_verified": true,
+  "signature_v3_verified": true,
+  "zip_alignment_verified": true,
+  "host_gain_tests": {
+    "passed": true,
+    "checks": 9,
+    "phone_device_test": false
+  },
+  "asset_sha256": "b6526b267ce5eb7e96433e110e914b0fc604759476d974f1e08598432ac4ac5b",
+  "asset_identical_to_current_reference": true,
+  "permissions": [
+    "FOREGROUND_SERVICE",
+    "FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+    "POST_NOTIFICATIONS"
+  ],
+  "phone_device_test": false
+}

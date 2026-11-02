@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "stages": [
+    {
+      "stage": "previous_wait",
+      "wait_seconds": 0.12,
+      "windows": 22,
+      "median_hz": 2.9154518950373,
+      "median_interval_ms": 343.0000000007567,
+      "median_cycle_ms": 206.185,
+      "median_dsp_ms": 4.55,
+      "valid_directions": 0,
+      "max_dropped": 0,
+      "max_rx_stall": 0
+    },
+    {
+      "stage": "fast_wait",
+      "wait_seconds": 0.005,
+      "windows": 35,
+      "median_hz": 4.566210045680002,
+      "median_interval_ms": 218.99999999914144,
+      "median_cycle_ms": 202.68,
+      "median_dsp_ms": 5.05,
+      "valid_directions": 0,
+      "max_dropped": 0,
+      "max_rx_stall": 0
+    }
+  ],
+  "rate_multiplier": 1.5662100456716959,
+  "raw_log": "C:\\Users\\33296\\Desktop\\\u5de5\u7a0b\u9879\u76ee\\EE475\\SEN0325-Pico-Setup\\logs\\launcher-20261016-235517-282973.txt",
+  "audio_playback_started": false,
+  "firmware_changed": false,
+  "limitation": "Timing and packet-integrity comparison only; not range, accuracy or moving-phone acceptance."
+}

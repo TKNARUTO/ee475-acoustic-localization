@@ -1,0 +1,140 @@
+{
+  "purpose": "File/decoder verification only; phone speaker and acoustic range NOT tested",
+  "ffmpeg": "ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers",
+  "encoding_options": [
+    "-c:a",
+    "libmp3lame",
+    "-q:a",
+    "0",
+    "-compression_level",
+    "0",
+    "-cutoff",
+    "22000",
+    "-joint_stereo",
+    "0",
+    "-write_xing",
+    "1"
+  ],
+  "files": [
+    {
+      "file": "01_LOCATE_20kHz_19-21kHz.mp3",
+      "bytes": 257564,
+      "sha256": "bc0661d60d0593b30d3232cbe2a049875b8027b538a18e200cab597089fb9805",
+      "duration_decoded_s": 12.288,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.35007,
+      "rms_change_db": 0.0,
+      "intended_band_energy_fraction": 0.999985,
+      "encoder_initial_rms_change_db": 0.0,
+      "pre_encoding_gain": 1.0,
+      "purpose": "coded direction beacon",
+      "code_windows": 16,
+      "windows_with_at_least_4_code_hits": 16,
+      "synthetic_decoded_direction_checks": [
+        {
+          "angle": 45,
+          "accepted_windows": 5,
+          "max_error_deg": 0.157
+        },
+        {
+          "angle": 90,
+          "accepted_windows": 5,
+          "max_error_deg": 0.087
+        },
+        {
+          "angle": 270,
+          "accepted_windows": 5,
+          "max_error_deg": 0.289
+        }
+      ]
+    },
+    {
+      "file": "11_TONE_19000Hz_level-only.mp3",
+      "bytes": 99788,
+      "sha256": "a070370188a162204e2cd7ef6ee5941b1ecc65df23803b3f70029bce043d489b",
+      "duration_decoded_s": 20.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.1415,
+      "rms_change_db": 0.001,
+      "intended_band_energy_fraction": 1.0,
+      "encoder_initial_rms_change_db": 0.001,
+      "pre_encoding_gain": 1.0,
+      "purpose": "level only; no direction expected",
+      "measured_probe_dbfs": -20.1,
+      "plain_tone_not_accepted_as_direction": true
+    },
+    {
+      "file": "12_TONE_19500Hz_level-only.mp3",
+      "bytes": 95588,
+      "sha256": "aea29ec0d2d1112a18e82445cfd365dcaff56634abc952dc7a8407db8616c524",
+      "duration_decoded_s": 20.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.14149,
+      "rms_change_db": -0.005,
+      "intended_band_energy_fraction": 1.0,
+      "encoder_initial_rms_change_db": -0.005,
+      "pre_encoding_gain": 1.0,
+      "purpose": "level only; no direction expected",
+      "measured_probe_dbfs": -20.0,
+      "plain_tone_not_accepted_as_direction": true
+    },
+    {
+      "file": "13_TONE_20000Hz_level-only.mp3",
+      "bytes": 81452,
+      "sha256": "d77e3eb93fc0483a5bb32ff2bc62e16adfc01d380033ded40c7f3eae94736503",
+      "duration_decoded_s": 20.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.14151,
+      "rms_change_db": 0.003,
+      "intended_band_energy_fraction": 1.0,
+      "encoder_initial_rms_change_db": 0.003,
+      "pre_encoding_gain": 1.0,
+      "purpose": "level only; no direction expected",
+      "measured_probe_dbfs": -20.0,
+      "plain_tone_not_accepted_as_direction": true
+    },
+    {
+      "file": "14_TONE_20500Hz_level-only.mp3",
+      "bytes": 108908,
+      "sha256": "9a43820171b7a91cd8c861282415974256c0abb996f30bb2ff99a008a68261cc",
+      "duration_decoded_s": 20.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.14146,
+      "rms_change_db": -0.002,
+      "intended_band_energy_fraction": 1.0,
+      "encoder_initial_rms_change_db": -0.002,
+      "pre_encoding_gain": 1.0,
+      "purpose": "level only; no direction expected",
+      "measured_probe_dbfs": -20.1,
+      "plain_tone_not_accepted_as_direction": true
+    },
+    {
+      "file": "15_TONE_21000Hz_level-only.mp3",
+      "bytes": 92300,
+      "sha256": "b9663c2345f2e21e0ff8d6bf083e05f144c26c0ef9a7022e0c54b742bdfcc2fe",
+      "duration_decoded_s": 20.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.14149,
+      "rms_change_db": 0.001,
+      "intended_band_energy_fraction": 1.0,
+      "encoder_initial_rms_change_db": 0.001,
+      "pre_encoding_gain": 1.0,
+      "purpose": "level only; no direction expected",
+      "measured_probe_dbfs": -20.0,
+      "plain_tone_not_accepted_as_direction": true
+    }
+  ],
+  "passed": true
+}

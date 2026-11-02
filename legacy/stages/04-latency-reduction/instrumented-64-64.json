@@ -1,0 +1,85 @@
+{
+  "log": "C:\\Users\\33296\\Desktop\\\u5de5\u7a0b\u9879\u76ee\\EE475\\SEN0325-Pico-Setup\\logs\\launcher-20261027-170759-443799.txt",
+  "packets": 100,
+  "steady_packets": 99,
+  "matched_device_timings": 98,
+  "usb_configs": [
+    [
+      64,
+      64
+    ]
+  ],
+  "metrics_ms": {
+    "header_wait_ms": {
+      "median": 108.814,
+      "p95": 115.047,
+      "max": 119.181
+    },
+    "payload_read_ms": {
+      "median": 97.752,
+      "p95": 112.123,
+      "max": 126.497
+    },
+    "crc_check_ms": {
+      "median": 0.055,
+      "p95": 0.087,
+      "max": 0.145
+    },
+    "packet_total_ms": {
+      "median": 208.417,
+      "p95": 222.101,
+      "max": 231.127
+    },
+    "device_capture_ms": {
+      "median": 82.105,
+      "p95": 87.584,
+      "max": 88.604
+    },
+    "device_crc_ms": {
+      "median": 22.471,
+      "p95": 22.472,
+      "max": 22.472
+    },
+    "device_tx_ms": {
+      "median": 101.784,
+      "p95": 115.61,
+      "max": 130.066
+    },
+    "dsp_ms": {
+      "median": 5.744,
+      "p95": 7.427,
+      "max": 11.563
+    },
+    "postprocess_ms": {
+      "median": 6.048,
+      "p95": 7.782,
+      "max": 11.565
+    },
+    "request_to_queue_ms": {
+      "median": 222.668,
+      "p95": 236.072,
+      "max": 244.635
+    },
+    "request_to_draw_ms": null,
+    "queue_to_draw_ms": null
+  },
+  "request_interval_ms": {
+    "median": 236.187,
+    "p95": 251.897,
+    "max": 275.542
+  },
+  "errors": [],
+  "outer_errors": [],
+  "expected_cancellations": 0,
+  "reasons": {
+    "beacon_not_detected": 99
+  },
+  "hardware_health": {
+    "dropped": 0,
+    "rx_stall": 0,
+    "process_us": 3960
+  },
+  "render_count": 0,
+  "limits": "Ambient transport timing; not phone-to-correct-bearing latency.",
+  "capture_rate_hz": 4.234
+}

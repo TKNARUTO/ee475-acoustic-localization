@@ -1,0 +1,160 @@
+{
+  "purpose": "File/decoder verification only; phone speaker and acoustic range NOT tested",
+  "ffmpeg": "ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers",
+  "encoding_options": [
+    "-c:a",
+    "libmp3lame",
+    "-b:a",
+    "320k",
+    "-compression_level",
+    "0",
+    "-cutoff",
+    "22000",
+    "-joint_stereo",
+    "0",
+    "-write_xing",
+    "1"
+  ],
+  "files": [
+    {
+      "file": "01_LOCATE_16-18kHz.mp3",
+      "bytes": 493484,
+      "sha256": "c35f2b6fdcda35f3bc10f62ed9f97572592f170e3c2058d2bfe4b9b2db5679e4",
+      "duration_decoded_s": 12.288,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.35008,
+      "rms_change_db": 0.0,
+      "intended_band_energy_fraction": 0.999985,
+      "purpose": "coded direction beacon",
+      "code_windows": 16,
+      "windows_with_at_least_4_code_hits": 16,
+      "synthetic_decoded_direction_checks": [
+        {
+          "angle": 45,
+          "accepted_windows": 5,
+          "max_error_deg": 0.167
+        },
+        {
+          "angle": 90,
+          "accepted_windows": 5,
+          "max_error_deg": 0.316
+        },
+        {
+          "angle": 270,
+          "accepted_windows": 5,
+          "max_error_deg": 0.334
+        }
+      ]
+    },
+    {
+      "file": "02_LOCATE_Audible.mp3",
+      "bytes": 493484,
+      "sha256": "fe37ab90e2be21e7589088f24a38282e1c4fe858ac7a66f7ecb4877e8e619ebb",
+      "duration_decoded_s": 12.288,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.12,
+      "rms_change_db": 0.0,
+      "intended_band_energy_fraction": 0.99999,
+      "purpose": "coded direction beacon",
+      "code_windows": 16,
+      "windows_with_at_least_4_code_hits": 16,
+      "synthetic_decoded_direction_checks": [
+        {
+          "angle": 45,
+          "accepted_windows": 5,
+          "max_error_deg": 0.0
+        },
+        {
+          "angle": 90,
+          "accepted_windows": 5,
+          "max_error_deg": 0.0
+        },
+        {
+          "angle": 270,
+          "accepted_windows": 5,
+          "max_error_deg": 0.0
+        }
+      ]
+    },
+    {
+      "file": "11_TONE_1000Hz_level-only.mp3",
+      "bytes": 802604,
+      "sha256": "95e1c6891abc9c009f66d86f5dea75e710a51570286db1e42593d7ea222b6053",
+      "duration_decoded_s": 20.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.14146,
+      "rms_change_db": 0.0,
+      "intended_band_energy_fraction": 1.0,
+      "purpose": "level only; no direction expected",
+      "measured_probe_dbfs": -20.0,
+      "plain_tone_not_accepted_as_direction": true
+    },
+    {
+      "file": "12_TONE_16000Hz_level-only.mp3",
+      "bytes": 802604,
+      "sha256": "d503e1855fd9b67ee05bfb113221b24a34423ba4b51de32e983e49a9478e33e9",
+      "duration_decoded_s": 20.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.12252,
+      "rms_change_db": -0.0,
+      "intended_band_energy_fraction": 1.0,
+      "purpose": "level only; no direction expected",
+      "measured_probe_dbfs": -20.1,
+      "plain_tone_not_accepted_as_direction": true
+    },
+    {
+      "file": "13_TONE_17000Hz_level-only.mp3",
+      "bytes": 802604,
+      "sha256": "8f2171f6a30a4c1184b79a826ba2e02e54425ffb5add501a7c5b50c73ae2c9c2",
+      "duration_decoded_s": 20.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.14142,
+      "rms_change_db": -0.001,
+      "intended_band_energy_fraction": 1.0,
+      "purpose": "level only; no direction expected",
+      "measured_probe_dbfs": -20.1,
+      "plain_tone_not_accepted_as_direction": true
+    },
+    {
+      "file": "14_TONE_17500Hz_level-only.mp3",
+      "bytes": 802604,
+      "sha256": "efc726bf57b26350d54cc7a827829496c0dfde2f461de8df65fe7513495210a2",
+      "duration_decoded_s": 20.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.14143,
+      "rms_change_db": -0.0,
+      "intended_band_energy_fraction": 1.0,
+      "purpose": "level only; no direction expected",
+      "measured_probe_dbfs": -20.1,
+      "plain_tone_not_accepted_as_direction": true
+    },
+    {
+      "file": "15_TONE_18000Hz_level-only.mp3",
+      "bytes": 802604,
+      "sha256": "ea0691fe00857398b88007447a1727584e15fa53d9449a2d2091329a93a9a595",
+      "duration_decoded_s": 20.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "left_channel_rms": 0.0,
+      "peak_decoded": 0.14145,
+      "rms_change_db": 0.001,
+      "intended_band_energy_fraction": 1.0,
+      "purpose": "level only; no direction expected",
+      "measured_probe_dbfs": -20.0,
+      "plain_tone_not_accepted_as_direction": true
+    }
+  ],
+  "passed": true
+}

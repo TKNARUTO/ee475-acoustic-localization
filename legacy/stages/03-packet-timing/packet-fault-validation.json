@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": [
+    "complete_binary_payload_fragment_57344",
+    "complete_binary_payload_fragment_4096",
+    "complete_binary_payload_fragment_2048",
+    "short_payload",
+    "crc_mismatch",
+    "trailer_mismatch",
+    "trailer_timeout",
+    "header_timeout",
+    "header_format",
+    "partial_header_and_trailer_accumulated",
+    "cancellation_and_timeout_restoration",
+    "resynchronize_after_binary_remainder",
+    "lost_first_stop_ack_is_retried",
+    "missing_stop_ack_is_bounded_and_rejected"
+  ],
+  "hardware_test": false,
+  "audio_played": false
+}

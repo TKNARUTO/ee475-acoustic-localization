@@ -1,0 +1,9 @@
+{
+  "source_file": "C:\\Users\\33296\\Desktop\\\u5de5\u7a0b\u9879\u76ee\\EE475\\audio\\phone\\HF2-20kHz\\01_LOCATE_20kHz_19-21kHz.mp3",
+  "sha256": "bc0661d60d0593b30d3232cbe2a049875b8027b538a18e200cab597089fb9805",
+  "decoded_sample_rate": 48000,
+  "decoded_duration_s": 12.288,
+  "plotted_channel": "right",
+  "source_modified": false,
+  "description": "Decoded digital source waveform, not a microphone recording. Zoom interpolation adds no measured samples. Spectrogram power is relative to its own peak."
+}

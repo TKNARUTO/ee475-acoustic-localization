@@ -1,0 +1,8 @@
+{
+  "platform_jar": "C:/Android/Sdk/platforms/android-35/android.jar",
+  "build_tools": "C:/Android/Sdk/build-tools/35.0.0",
+  "java_home": "C:/Program Files/Java/jdk-22",
+  "python_exe": "C:/Path/To/Python312/python.exe",
+  "source_alias": null,
+  "keystore": "C:/Path/Outside/Repository/ee475-development.jks"
+}

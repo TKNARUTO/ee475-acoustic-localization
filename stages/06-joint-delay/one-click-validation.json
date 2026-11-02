@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checkpoint": "RX4",
+  "new_pid": 52172,
+  "new_token": "072d57ce4712b4ee615e03be65f78869",
+  "previous_pid": 38988,
+  "graceful_restart": true,
+  "joint_source_sha256": "c35033785a131f68388aaa9ed95290b7ba79897cb1cce3cd1306d49ed012adc6",
+  "completed_at": "2026-10-29T17:18:17.444232-07:00"
+}
