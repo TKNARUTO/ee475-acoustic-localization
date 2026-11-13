@@ -1,14 +1,15 @@
-# EE475 agent instructions
-
-Read README.md and docs/ROLES.md before changes. Active desktop sources remain in SEN0325-Pico-Setup. Current checkpoint: stages/06-joint-delay; historical stages/reports are under legacy. Android work lives in android-player.
-
-- Work in stages; explain intended behavior changes first. Save before/after evidence and update the phase notes, change details and relevant README.
-- Do not reject, freeze or force a bearing solely because its change from the previous frame is large. Genuine motion may be unpredictable.
-- Keep the computer receive-only. Playback belongs on the phone. Do not silently change frequency, sample rate, code or defaults on only one side.
-- Distinguish processing rate, packet latency, accepted-bearing rate and physical accuracy. Radar rings do not measure range. User pauses and unrecorded movements are not automatically bugs.
-- Preserve engineering tools, GPIO wiring and firmware unless the requested change requires them. No motor commands are part of this contribution.
-- Treat legacy as reference history. Current tests may read its fixed fixtures; write new results to the current stage. For requested reorganization, preserve content hashes and a path map.
-- Local microphone recordings remain local. Record exact packet sequences and finite capture durations. Do not fabricate phone pause times or true angles.
-- Prefer conservative, optional audio processing; preserve original files. Phone gain normalization is not microphone ADC calibration or a guarantee of range.
-
-Handoff update (2026-11-02): read docs/TEAM_HANDOFF.md, docs/AI_HANDOFF.md and docs/INTEGRATION.md. Stage 07 tracks packaging/portability; RX4 DSP is still stage 06. tools/verify_handoff.py runs checks available in a fresh clone. Private recording fixtures are deliberately excluded, not fabricated. See docs/SHARING.md.
+# Agent instructions
+Read README_EN.md, docs/TEAM_HANDOFF_EN.md and the component README before edits. Chinese equivalents use _ZH. This is a Pico SDK standalone HF2 estimator plus a separate Arduino NodeMCU-32S receiver. PC monitoring is optional; the final PC-DSP template is confined to legacy/pico+computer combo sensoring version.
+- Work in stages. Record interpreted requirements, assumptions, implementation decisions, evidence and open issues in a readable engineering notebook; do not present a private reasoning transcript.
+- Preserve the current communication milestone. FFT, experimental whitening/cache and dual-core optimization are paused until explicitly resumed. Current deployed flags: INTEGER_FFT=ON, INTEGER_FAST=ON, WHITEN_FLOAT=OFF, MAG_CACHE=OFF, PICO_NO_FLASH=OFF.
+- Never block a direction solely because its angle changed greatly. Do not pass stale/invalid diagnostics to a motor controller. No motor commands are implemented.
+- PC stays receive-only except explicit acquisition Pause/Resume. Phone handles playback. Do not change beacon/profile on one side silently.
+- GP0 TX → ESP16 RX; GP1 RX ← ESP17 TX; common ground. Keep array GP6–GP13. Back up existing Flash before replacing it.
+- Keep Pico and ESP sources separate. Arduino board is NodeMCU-32S, package esp32 by Espressif Systems 3.3.12. A COM number is local, not the board type. Pico is SDK C/C++, not an Arduino sketch.
+- Distinguish fit, confirmed fresh target, update interval, ACK timing, CPU proxy and measured physical accuracy. All observed control targets in this stage were invalid due to age/confirmation.
+- Every change batch updates README_EN/ZH and file catalog. Reports and explanatory documents have separate EN/ZH files; English code/interface.
+- Local update and verification come first. Use PowerShell/Git CLI to publish the same allowlisted files, then verify remote commit and local-versus-checkout hashes. Never git-add the parent EE475 workspace.
+- Raw microphone recordings, logs, device backups, credentials, keys and machine config stay local. Preserve moved engineering files in an external archive with hashes.
+- legacy contains only the final combo template and its matching ZIP. Read its own instructions before editing; source/binaries remain unchanged when updating documentation.
+- Use finite serial tests and exclusive ports. Close monitors before upload. Playback pauses and unrecorded movement are not automatically bugs.
+- Current report: reports/communication-2026-11-12/REPORT_EN.md. Current stage notebook: pico-standalone/COMMUNICATION_NOTEBOOK_EN.md.

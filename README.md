@@ -1,89 +1,22 @@
-# Tagalong | Acoustic Localization
+# EE475 Acoustic Localization
 
-**EE475 · Desktop RX4 · 29 October 2026 · Pico firmware v0.6-RX2**
+[Full English guide](README_EN.md) · [中文说明](README_ZH.md)
 
-A phone emits a known beacon. The SEN0325 6+1 array and Raspberry Pi Pico capture seven synchronous audio channels. The Windows app estimates bearing and shows the received waveform and spectrum. Radar rings are a visual guide, not a distance measurement.
+**Current stage:** SEN0325 → Pico standalone estimation → ESP32 UART reception. Windows is an optional radar/timing monitor; the phone plays the fixed HF2 gap beacon.
 
-RX4 adds a joint spectral-delay rescue after the existing estimators fail. It evaluates a common physical delay field using all reliable pair-score curves. It does not reject a direction because of its change from the previous frame. Manual playback interruptions are separate from receiver failures.
+| Component | Platform and tested setup |
+|---|---|
+| Pico | Raspberry Pi Pico / RP2040; native C/C++, **Pico SDK 2.3.1**, Arm GNU 14.2.Rel1, CMake 4.4.4 |
+| ESP32 | **38-pin NodeMCU ESP-32S**, classic ESP32; **Arduino IDE 2.3.8 / CLI 1.4.1** |
+| Arduino board package | **esp32 by Espressif Systems 3.3.12** |
+| Arduino board selection | **NodeMCU-32S**; FQBN **esp32:esp32:nodemcu-32s** — not ESP32-S3 |
+| Observed USB ports | ESP32 **COM6**, Pico **COM8**; select the actual port on your computer |
+| Windows / Android | Python 3.12 + Tk; Beacon Loop 1.2, Android API26+ |
 
+The board package, board type and COM port are different settings. Pico is a Pico SDK project; ESP32 is an Arduino sketch. [ESP32 installation/build/upload](esp32-link/gap_receiver/README_EN.md) · [Pico setup](pico-standalone/README_EN.md) · [GPIO wiring](docs/HARDWARE_EN.md).
 
-## Team handoff — 2 November 2026
+**Status:** communication fields match in clean trials, software reboot recovers, and the link continues without a Pico PC client. Fresh control targets and the **0.2–0.5 s delay goal remain unmet**; no motor commands are included. Read the [English report](reports/communication-2026-11-12/REPORT_EN.md) / [中文报告](reports/communication-2026-11-12/REPORT_ZH.md).
 
-Start with the [English handoff](docs/TEAM_HANDOFF.md) or [中文交接](docs/TEAM_HANDOFF_ZH.md). For a coding agent, read [AI_HANDOFF.md](docs/AI_HANDOFF.md) and [AGENTS.md](AGENTS.md). [FILE_CATALOG.md](docs/FILE_CATALOG.md) lists every published file and its purpose; [INTEGRATION.md](docs/INTEGRATION.md) describes interfaces and future robot work.
+Use **Start.cmd** and **Update.cmd** for the optional viewer. Separate folders contain Pico firmware, ESP32 Arduino source and the Android player. The only legacy template is [the final Pico + computer version](legacy/pico+computer%20combo%20sensoring%20version/README.md).
 
-**Phone player:** [Beacon Loop 1.0 APK](android-player/releases/BeaconLoop-1.0.apk), [usage and build instructions](android-player/README.md). **New Windows PC:** [setup instructions](docs/SETUP_WINDOWS.md). **Offline checks:** `python tools/verify_handoff.py`.
-
-The repository is a selected team package. Original microphone captures, runtime logs, local configuration and redundant historical binary archives remain in the complete local archive. See [SHARING.md](docs/SHARING.md). The root FILE_INDEX.txt is local-only; the published file catalog describes what a clone actually contains. The [stage 07 notes](stages/07-team-handoff/README.md) record packaging changes without changing the RX4 estimator.
-
-## Start
-
-1. Connect the wired Pico over USB.
-2. Double-click **Update-and-Start.cmd** or **一键启动雷达.cmd**. The launcher validates local RX4 source files, gracefully closes a compatible running instance and confirms the new process/version before returning. This refreshes the local program; it does not download updates or flash firmware.
-3. Select **Start Scan**, then play **audio/phone/HF2-20kHz/01_LOCATE_20kHz_19-21kHz.mp3** on the phone. The computer remains receive-only.
-4. For another compatible periodic beacon, select **Import Beacon** in the Windows app and play the same file on the phone. Do not change one side's frequency or code independently.
-5. **Set Front** calibrates the view after stable measurements. **Advanced** retains detailed channels and manually labelled trials. Automatic short diagnostic captures remain enabled.
-
-The same 90.11 s phone recording produced 52 accepted outputs with RX3 and 81 with RX4; all previously accepted raw angles were preserved. This is an identical-input comparison, not a representative success rate or physical accuracy measurement. Unstable direction fits remain. Read the [illustrated Chinese analysis report](reports/RX4-2026-10-29/ANALYSIS_ZH.md).
-
-## Folder structure and roles
-
-| Location | Role |
-| --- | --- |
-| `SEN0325-Pico-Setup/` | Active firmware source, Windows app, current RAM image and runtime logs. Existing SDK/build alias remains valid. |
-| `audio/phone/HF2-20kHz/` | Current phone beacon and level probes. Pure probes do not authorize a bearing. |
-| `audio/reference/` | Current lossless reference copy. |
-| `tests/` | Current repeatable checks, raw trial capture, replay and plot tools. |
-| `stages/06-joint-delay/` | RX4 checkpoint: validation, source backup, original raw recordings and machine-readable analysis. |
-| `reports/RX4-2026-10-29/` | Human-readable analysis with waveform, spectrum and direction plots. |
-| `docs/` | Current architecture, operation, hardware, roles and legacy path map. |
-| `references/` | Original project proposal, notes, schematics, datasheets and photographs. |
-| `android-player/` | Local phone loop-player project and its own delivery notes. |
-| `legacy/` | Superseded stages, reports, releases, audio, setup records and exploratory scripts. Reference material, not the current launch path. |
-| `docs/FILE_CATALOG.md` | Published files and purposes; local FILE_INDEX.txt additionally covers private archives. |
-
-Old absolute paths in frozen reports are intentionally preserved. Resolve them using the local migration map (docs/LEGACY_MIGRATION.csv, excluded from Git). Historical file content was checked after moving. A locked old `releases/` directory may retain only a location notice; its package files are under `legacy/releases/`.
-
-Read [project roles](docs/ROLES.md), [角色与工作范围](docs/ROLES_ZH.md), [current operation](docs/USER_GUIDE.md), [architecture](docs/ARCHITECTURE.md), and [agent instructions](AGENTS.md).
-
-## SEN0325-to-Pico GPIO wiring
-
-The table below matches the current firmware pin assignments. **GPIO numbers and physical pin numbers are different**: for example, GP6 is physical pin 9.
-
-| SEN0325 pin label | Pico signal / GPIO | Pico physical pin | Function |
-| --- | --- | --- | --- |
-| VIN | 3V3 OUT | 36 | 3.3 V supply for the current microphone test |
-| GND | GND | 13 | Common ground |
-| MIC_D0 | GP6 | 9 | Microphone data line 0, array → Pico |
-| MIC_D1 | GP7 | 10 | Microphone data line 1, array → Pico |
-| MIC_D2 | GP8 | 11 | Microphone data line 2, array → Pico |
-| MIC_D3 | GP9 | 12 | Microphone data line 3, array → Pico |
-| MIC_CK | GP10 | 14 | I2S bit clock (BCLK), Pico → array |
-| MIC_WS | GP11 | 15 | I2S word select (WS/LRCLK), Pico → array |
-| LED_CK | GP12 | 16 | LED clock, Pico → array |
-| LED_DA | GP13 | 17 | LED data, Pico → array |
-
-**Pico orientation:** with the USB connector at the top and the component side facing you, the left row runs from GP0 to GP15; the right row runs from VBUS down to GP16. The back-side photograph reverses left and right. Follow the GPIO names and physical pin numbers rather than the breadboard row numbers.
-
-**SEN0325 connector orientation:** viewed from the side carrying the connector and its printed labels, as in the supplied photograph:
-
-```text
-Left      Right
-LED_DA    LED_CK
-MIC_D1    MIC_D0
-MIC_D3    MIC_D2
-MIC_CK    MIC_WS
-GND       VIN
-```
-
-Disconnect USB before changing wires. Keep the current 3.3 V supply and ring LEDs off; do not confuse **3V3 OUT (pin 36)** with **3V3_EN (pin 37)** or VBUS. See [hardware and wiring notes](docs/HARDWARE.md) for the board-revision and power-supply details.
-
-
-## Validation and limitations
-
-- 15 focused RX4 checks passed, including 171 nonphysical coded delay fields rejected, score-cache reuse, fresh-data handling and unrestricted large turns.
-- Existing 20 kHz model regression and receive-only controls passed. These are model checks, not physical angular acceptance.
-- Actual GUI/Pico check passed all 21 checks, retaining four main buttons and seven-channel capture.
-- The 90 s phone record has a median normal result interval of 187 ms and packet completion of 161.8 ms. These are pipeline measurements, not sound-onset-to-correct-bearing latency.
-- The receiver still rejects inconsistent measurements. Known physical bearings, reliable range and an inaudibility acceptance test remain outstanding.
-
-Shared compilers and Python remain outside the project under `C:/Tools/Embedded`. No Pico Flash payload or GPIO mapping changed in RX4. See the [checkpoint README](stages/06-joint-delay/README.md) and [validation guide](docs/VALIDATION.md).
+[File catalog](docs/FILE_CATALOG_EN.md) · [Team and AI handoff](docs/TEAM_HANDOFF_EN.md) · [Architecture and integration risks](docs/INTEGRATION_EN.md)

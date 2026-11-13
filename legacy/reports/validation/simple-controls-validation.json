@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "all_radar_playback_state_combinations": true,
-  "playback_does_not_require_pico_connection": true,
-  "audio_selection_keeps_radar_switch_state": true,
-  "playback_failure_does_not_stop_radar": true,
-  "late_burst_after_stop_is_discarded": true,
-  "test_audio_emitted": false
-}

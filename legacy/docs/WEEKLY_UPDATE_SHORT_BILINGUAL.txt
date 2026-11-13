@@ -1,3 +1,0 @@
-We completed a working bench prototype for our SEN0325/Pico acoustic subsystem. It captures seven microphone channels, identifies a coded audible phone beacon, and displays an estimated bearing on a simplified radar-style interface. We also added packet-integrity checks, diagnostic logging and independent playback controls, and improved the measured acquisition-loop rate from about 2.9 to 4.6 Hz. The next priority is controlled angle-and-distance testing and the ESP32 handoff. Inaudible localization and complete vehicle following are still open.
-
-本周完成了 SEN0325/Pico 声学子系统的可运行台架原型，实现七通道采音、可听编码信标识别和二维雷达式方位显示，并加入数据校验、诊断日志和独立播放控制。实测采集循环速率从约 2.9 提升到 4.6 Hz。接下来重点做有真实角度和距离记录的测试，并与 ESP32 对接。目前还不能宣称不可听定位和整车跟随已经完成。

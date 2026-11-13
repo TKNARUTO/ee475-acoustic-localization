@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "scan_only_controls": true,
-  "no_playback_implementation": true,
-  "receiver_selection_keeps_scan_state": true,
-  "unknown_profile_rejected": true,
-  "late_burst_after_stop_is_discarded": true,
-  "test_audio_emitted": false
-}

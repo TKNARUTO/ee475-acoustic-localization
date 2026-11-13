@@ -1,9 +1,0 @@
-{
-  "path": "C:\\Users\\33296\\Desktop\\\u5de5\u7a0b\u9879\u76ee\\EE475\\stages\\04-latency-reduction\\experiments\\usb-4096-512-rx512-RAM.uf2",
-  "sha256": "aa7947b652b5ab62f1fdc65dad08c9697c27fcaa066f425306787c9417650a13",
-  "blocks": 423,
-  "start": "0x20000000",
-  "end_exclusive": "0x2001a700",
-  "sram_only": true,
-  "flash_payload_blocks": 0
-}

@@ -1,25 +1,52 @@
 {
-  "checked_date": "2026-11-02",
-  "apk": "releases/BeaconLoop-1.0.apk",
-  "apk_sha256": "1df38d58ec1190c04efed8b6b43e87b7cf1a744abbd2d54538af0544d39bbcae",
+  "checked_date": "2026-11-05",
+  "apk": "releases/BeaconLoop-1.2.apk",
+  "apk_sha256": "c3a779101180ba396713b84a60b9d63abc326ab93a517d91444fc415ad440636",
   "package": "org.ee475.beaconloop",
-  "version": "1.0",
+  "version": "1.2",
+  "version_code": 3,
   "minimum_sdk": 26,
   "target_sdk": 35,
+  "compile_sdk": 35,
   "signature_v2_verified": true,
   "signature_v3_verified": true,
   "zip_alignment_verified": true,
+  "certificate_sha256": "32d13ff773b36c8438220db4fb63b6daf5e6da6d829b6ef11f7febe2571ce037",
+  "compatible_signer_with_1_0": true,
+  "compatible_signer_with_imported_1_1": false,
+  "upgrade_note": "Original 1.0 signing identity reused. The imported 1.1 APK has another signer and cannot be directly replaced by this APK.",
+  "default_beacon": "coded-gap",
+  "band_hz": [
+    18000,
+    22000
+  ],
+  "only_bundled_asset": "gap-beacon.wav",
+  "asset_sha256": "e182fddee2615ed15b826e9d781c041ae557e59fcb6aa2ed7feb6274e3e9b9a1",
+  "asset_identical_to_current_reference": true,
+  "pc_template_correlation": 0.9999999959766115,
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_seconds": 12.288,
   "host_gain_tests": {
     "passed": true,
     "checks": 9,
     "phone_device_test": false
   },
-  "asset_sha256": "b6526b267ce5eb7e96433e110e914b0fc604759476d974f1e08598432ac4ac5b",
-  "asset_identical_to_current_reference": true,
+  "legacy_archive_hashes_verified": true,
   "permissions": [
     "FOREGROUND_SERVICE",
     "FOREGROUND_SERVICE_MEDIA_PLAYBACK",
     "POST_NOTIFICATIONS"
   ],
-  "phone_device_test": false
+  "phone_device_test": false,
+  "phone_install_performed": false,
+  "playback_performed": false,
+  "build_environment": {
+    "jdk": "25.0.4.1+1",
+    "platform_api": 35,
+    "build_tools_package": "android-15"
+  },
+  "limits": [
+    "No physical gapless playback, screen-off, file-picker, focus-recovery or angular-accuracy acceptance test was performed."
+  ]
 }

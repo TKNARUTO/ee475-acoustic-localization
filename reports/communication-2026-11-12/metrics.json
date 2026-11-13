@@ -1,0 +1,805 @@
+{
+  "schema": "ee475-communication-public-v1",
+  "date": "2026-11-12",
+  "trials": [
+    {
+      "id": "01-link-recovery",
+      "seconds": 30.109,
+      "overall_verdict": "consistent_observed_overlap",
+      "raw_event_count": 180,
+      "pico_windows": 38,
+      "current_tx": 38,
+      "esp_bearings": 38,
+      "exact_packets": 38,
+      "matched_packets": 38,
+      "crc_valid_b_acks": 38,
+      "b_ack_status_counts": {
+        "4": 1,
+        "1": 37
+      },
+      "later_pico_ack_confirmations": 37,
+      "interior_missing_observations": 0,
+      "parse_error_count": 0,
+      "fit_valid": 0,
+      "valid": 0,
+      "code_channels": {
+        "0": 38
+      },
+      "reasons": {
+        "beacon_not_detected": 38
+      },
+      "esp_classes": {
+        "RX_REJECTED": 1,
+        "DIAG_STALE": 37
+      },
+      "dsp_ms": {
+        "count": 38,
+        "min": 716.225,
+        "median": 719.0075,
+        "p95": 720.727,
+        "max": 721.022
+      },
+      "cycle_ms": {
+        "count": 38,
+        "min": 806.412,
+        "median": 810.1805,
+        "p95": 813.503,
+        "max": 814.669
+      },
+      "measurement_age_ms": {
+        "count": 38,
+        "min": 761,
+        "median": 764.0,
+        "p95": 766,
+        "max": 766
+      },
+      "ack_rtt_ms": {
+        "count": 37,
+        "min": 6.607,
+        "median": 7.165,
+        "p95": 7.492,
+        "max": 7.496
+      },
+      "receiver_error_counter_deltas": {
+        "bad": 0,
+        "lines": 0,
+        "ack_drop": 0,
+        "usb_drop": 0
+      },
+      "boundary_unmatched_tx": 0,
+      "boundary_unmatched_esp": 0,
+      "final_ack_boundary": 1,
+      "warmup_used": false
+    },
+    {
+      "id": "02-phone",
+      "seconds": 30.109,
+      "overall_verdict": "inconsistent_observation",
+      "raw_event_count": 4603,
+      "pico_windows": 34,
+      "current_tx": 34,
+      "esp_bearings": 33,
+      "exact_packets": 33,
+      "matched_packets": 33,
+      "crc_valid_b_acks": 33,
+      "b_ack_status_counts": {
+        "1": 33
+      },
+      "later_pico_ack_confirmations": 32,
+      "interior_missing_observations": 0,
+      "parse_error_count": 1,
+      "fit_valid": 32,
+      "valid": 0,
+      "code_channels": {
+        "7": 34
+      },
+      "reasons": {
+        "stale_measurement": 32,
+        "no_consistent_arrival": 2
+      },
+      "esp_classes": {
+        "DIAG_STALE": 33
+      },
+      "dsp_ms": {
+        "count": 34,
+        "min": 787.584,
+        "median": 789.1595,
+        "p95": 791.404,
+        "max": 792.068
+      },
+      "cycle_ms": {
+        "count": 34,
+        "min": 881.941,
+        "median": 884.5575,
+        "p95": 887.45,
+        "max": 888.114
+      },
+      "measurement_age_ms": {
+        "count": 34,
+        "min": 833,
+        "median": 834.0,
+        "p95": 836,
+        "max": 837
+      },
+      "ack_rtt_ms": {
+        "count": 32,
+        "min": 7.331,
+        "median": 7.844,
+        "p95": 8.336,
+        "max": 8.421
+      },
+      "receiver_error_counter_deltas": {
+        "bad": 0,
+        "lines": 0,
+        "ack_drop": 0,
+        "usb_drop": 0
+      },
+      "boundary_unmatched_tx": 1,
+      "boundary_unmatched_esp": 0,
+      "final_ack_boundary": 1,
+      "warmup_used": false
+    },
+    {
+      "id": "03-flash-warmup",
+      "seconds": 30.109,
+      "overall_verdict": "consistent_observed_overlap",
+      "raw_event_count": 165,
+      "pico_windows": 37,
+      "current_tx": 37,
+      "esp_bearings": 37,
+      "exact_packets": 37,
+      "matched_packets": 37,
+      "crc_valid_b_acks": 37,
+      "b_ack_status_counts": {
+        "1": 37
+      },
+      "later_pico_ack_confirmations": 36,
+      "interior_missing_observations": 0,
+      "parse_error_count": 0,
+      "fit_valid": 0,
+      "valid": 0,
+      "code_channels": {
+        "0": 37
+      },
+      "reasons": {
+        "beacon_not_detected": 37
+      },
+      "esp_classes": {
+        "DIAG_STALE": 37
+      },
+      "dsp_ms": {
+        "count": 37,
+        "min": 718.961,
+        "median": 719.932,
+        "p95": 722.26,
+        "max": 722.286
+      },
+      "cycle_ms": {
+        "count": 37,
+        "min": 807.248,
+        "median": 809.641,
+        "p95": 817.768,
+        "max": 818.393
+      },
+      "measurement_age_ms": {
+        "count": 37,
+        "min": 764,
+        "median": 765,
+        "p95": 768,
+        "max": 768
+      },
+      "ack_rtt_ms": {
+        "count": 36,
+        "min": 6.982,
+        "median": 7.2765,
+        "p95": 7.901,
+        "max": 7.917
+      },
+      "receiver_error_counter_deltas": {
+        "bad": 0,
+        "lines": 0,
+        "ack_drop": 0,
+        "usb_drop": 0
+      },
+      "boundary_unmatched_tx": 0,
+      "boundary_unmatched_esp": 0,
+      "final_ack_boundary": 1,
+      "warmup_used": true
+    },
+    {
+      "id": "04-flash-reboot",
+      "seconds": 12.109,
+      "overall_verdict": "consistent_observed_overlap",
+      "raw_event_count": 64,
+      "pico_windows": 14,
+      "current_tx": 14,
+      "esp_bearings": 15,
+      "exact_packets": 14,
+      "matched_packets": 14,
+      "crc_valid_b_acks": 14,
+      "b_ack_status_counts": {
+        "1": 14
+      },
+      "later_pico_ack_confirmations": 13,
+      "interior_missing_observations": 0,
+      "parse_error_count": 0,
+      "fit_valid": 0,
+      "valid": 0,
+      "code_channels": {
+        "0": 14
+      },
+      "reasons": {
+        "beacon_not_detected": 14
+      },
+      "esp_classes": {
+        "DIAG_STALE": 15
+      },
+      "dsp_ms": {
+        "count": 14,
+        "min": 718.839,
+        "median": 720.525,
+        "p95": 721.223,
+        "max": 721.223
+      },
+      "cycle_ms": {
+        "count": 14,
+        "min": 807.815,
+        "median": 809.225,
+        "p95": 811.201,
+        "max": 811.201
+      },
+      "measurement_age_ms": {
+        "count": 14,
+        "min": 764,
+        "median": 766.0,
+        "p95": 767,
+        "max": 767
+      },
+      "ack_rtt_ms": {
+        "count": 13,
+        "min": 6.616,
+        "median": 6.89,
+        "p95": 7.63,
+        "max": 7.63
+      },
+      "receiver_error_counter_deltas": {
+        "bad": 0,
+        "lines": 0,
+        "ack_drop": 0,
+        "usb_drop": 0
+      },
+      "boundary_unmatched_tx": 0,
+      "boundary_unmatched_esp": 1,
+      "final_ack_boundary": 1,
+      "warmup_used": true
+    },
+    {
+      "id": "05-no-pico-client",
+      "seconds": 12.109,
+      "overall_verdict": "esp_output_observed_without_pico_serial_client",
+      "raw_event_count": 35,
+      "pico_windows": null,
+      "current_tx": null,
+      "esp_bearings": 15,
+      "exact_packets": null,
+      "matched_packets": null,
+      "crc_valid_b_acks": 14,
+      "esp_records_with_matching_ack": 14,
+      "later_pico_ack_confirmations": null,
+      "parse_error_count": 0,
+      "observed_target_valid": 0,
+      "pico_serial_opened": false,
+      "physical_usb_removed": false,
+      "cold_start_test": false,
+      "receiver_error_counter_deltas": {
+        "bad": 0,
+        "lines": 0,
+        "ack_drop": 0,
+        "usb_drop": 0
+      },
+      "source_age_ms": {
+        "min": 764,
+        "median": 766,
+        "max": 767
+      },
+      "warmup_used": true
+    }
+  ],
+  "trial02_startup": {
+    "repeated_esp_prefix_lines": 4453,
+    "fragment_copies": 1597,
+    "repeated_stat_copies": 2856,
+    "prefix_end_elapsed_s": 0.531,
+    "malformed_stat_event_index": 4456,
+    "full_file_verdict": "inconsistent_observation",
+    "prefix_removed_from_analysis": false,
+    "root_cause": "startup observation anomaly; FTDI driver cause not established"
+  },
+  "trial02_angle_transport_series": [
+    {
+      "elapsed_s": 1.406,
+      "pico_tx_deg": 0.0,
+      "esp_rx_deg": 0.0,
+      "fit_valid": 0,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 2.297,
+      "pico_tx_deg": 83.43,
+      "esp_rx_deg": 83.43,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 3.172,
+      "pico_tx_deg": 345.77,
+      "esp_rx_deg": 345.77,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 4.062,
+      "pico_tx_deg": 308.33,
+      "esp_rx_deg": 308.33,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 4.984,
+      "pico_tx_deg": 319.01,
+      "esp_rx_deg": 319.01,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 5.828,
+      "pico_tx_deg": 262.5,
+      "esp_rx_deg": 262.5,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 6.719,
+      "pico_tx_deg": 251.48,
+      "esp_rx_deg": 251.48,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 7.609,
+      "pico_tx_deg": 0.0,
+      "esp_rx_deg": 0.0,
+      "fit_valid": 0,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 8.484,
+      "pico_tx_deg": 118.67,
+      "esp_rx_deg": 118.67,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 9.375,
+      "pico_tx_deg": 120.44,
+      "esp_rx_deg": 120.44,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 10.266,
+      "pico_tx_deg": 86.45,
+      "esp_rx_deg": 86.45,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 11.141,
+      "pico_tx_deg": 67.14,
+      "esp_rx_deg": 67.14,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 12.031,
+      "pico_tx_deg": 17.04,
+      "esp_rx_deg": 17.04,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 12.906,
+      "pico_tx_deg": 321.08,
+      "esp_rx_deg": 321.08,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 13.812,
+      "pico_tx_deg": 307.57,
+      "esp_rx_deg": 307.57,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 14.687,
+      "pico_tx_deg": 270.82,
+      "esp_rx_deg": 270.82,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 15.562,
+      "pico_tx_deg": 293.08,
+      "esp_rx_deg": 293.08,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 16.453,
+      "pico_tx_deg": 39.07,
+      "esp_rx_deg": 39.07,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 17.344,
+      "pico_tx_deg": 115.84,
+      "esp_rx_deg": 115.84,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 18.234,
+      "pico_tx_deg": 153.37,
+      "esp_rx_deg": 153.37,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 19.109,
+      "pico_tx_deg": 141.64,
+      "esp_rx_deg": 141.64,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 20.0,
+      "pico_tx_deg": 339.23,
+      "esp_rx_deg": 339.23,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 20.891,
+      "pico_tx_deg": 335.25,
+      "esp_rx_deg": 335.25,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 21.766,
+      "pico_tx_deg": 334.2,
+      "esp_rx_deg": 334.2,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 22.656,
+      "pico_tx_deg": 272.99,
+      "esp_rx_deg": 272.99,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 23.547,
+      "pico_tx_deg": 274.11,
+      "esp_rx_deg": 274.11,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 24.422,
+      "pico_tx_deg": 63.93,
+      "esp_rx_deg": 63.93,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 25.312,
+      "pico_tx_deg": 70.5,
+      "esp_rx_deg": 70.5,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 26.187,
+      "pico_tx_deg": 158.63,
+      "esp_rx_deg": 158.63,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 27.078,
+      "pico_tx_deg": 174.65,
+      "esp_rx_deg": 174.65,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 27.969,
+      "pico_tx_deg": 8.06,
+      "esp_rx_deg": 8.06,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 28.844,
+      "pico_tx_deg": 346.76,
+      "esp_rx_deg": 346.76,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    },
+    {
+      "elapsed_s": 29.734,
+      "pico_tx_deg": 30.04,
+      "esp_rx_deg": 30.04,
+      "fit_valid": 1,
+      "source_valid": 0,
+      "target_valid": 0
+    }
+  ],
+  "ack_rtt_series_ms": {
+    "01-link-recovery": [
+      6.607,
+      7.238,
+      6.968,
+      6.674,
+      6.806,
+      7.148,
+      6.751,
+      7.054,
+      6.646,
+      7.142,
+      7.178,
+      7.351,
+      7.172,
+      6.988,
+      6.738,
+      6.864,
+      6.695,
+      6.688,
+      6.973,
+      7.167,
+      6.856,
+      7.445,
+      6.806,
+      7.437,
+      7.259,
+      7.496,
+      7.461,
+      7.165,
+      7.229,
+      7.276,
+      7.24,
+      7.038,
+      7.458,
+      7.451,
+      7.492,
+      7.194,
+      7.226
+    ],
+    "02-phone": [
+      7.331,
+      7.483,
+      8.234,
+      7.773,
+      7.736,
+      8.231,
+      7.654,
+      7.644,
+      7.727,
+      8.073,
+      8.018,
+      8.046,
+      7.507,
+      8.031,
+      7.674,
+      7.825,
+      7.956,
+      8.336,
+      7.953,
+      7.6,
+      7.997,
+      7.878,
+      8.294,
+      7.629,
+      7.863,
+      7.769,
+      7.978,
+      7.9,
+      7.69,
+      8.421,
+      7.763,
+      7.82
+    ],
+    "03-flash-warmup": [
+      7.155,
+      7.348,
+      7.594,
+      7.334,
+      7.734,
+      7.0,
+      7.125,
+      7.022,
+      7.623,
+      7.109,
+      7.301,
+      7.158,
+      7.202,
+      7.02,
+      7.221,
+      7.224,
+      7.505,
+      7.319,
+      7.43,
+      6.982,
+      7.475,
+      7.901,
+      7.917,
+      7.236,
+      7.419,
+      7.31,
+      7.521,
+      7.522,
+      7.079,
+      7.893,
+      7.059,
+      7.252,
+      7.037,
+      7.165,
+      7.377,
+      7.155
+    ],
+    "04-flash-reboot": [
+      6.616,
+      6.857,
+      6.887,
+      6.899,
+      7.397,
+      7.045,
+      7.138,
+      6.88,
+      6.747,
+      7.63,
+      7.21,
+      6.848,
+      6.89
+    ]
+  },
+  "timing_profile_17_windows": {
+    "windows": 17,
+    "valid_fits": 7,
+    "cycle_mean_ms": 881.2444117647059,
+    "dsp_mean_ms": 788.1612941176471,
+    "unpack_mean_ms": 14.585117647058823,
+    "phase_mean_ms": {
+      "fft_inverse": 451.9478235294118,
+      "envelope_peaks": 188.04911764705884,
+      "whitening_match": 100.35411764705883,
+      "capture_scheduler": 93.08311764705877,
+      "other_dsp": 42.20035294117645,
+      "final_geometry": 5.6098823529411765
+    },
+    "timed_dsp_plus_unpack_fraction": 0.9109236904631186,
+    "scope": "Earlier 17 FAST RAM windows; phase wall-time proxy, not CPU utilization; unpack overlaps capture"
+  },
+  "flash_resource_audit": {
+    "firmware": "v0.2-link_diag",
+    "backend": "integer_q15_fast",
+    "image_kind": "flash",
+    "uf2_sha256": "11958e9310926e856f01359c10c4832cffc046cb64a8edebe675b76e3984caa0",
+    "heap_capacity_linker": 104660,
+    "core0_stack_reserved": 4096,
+    "core1_stack_reserved": 0,
+    "stack_high_water_measured": false,
+    "cpu_utilization_measured": false,
+    "core0_hz": 120000000,
+    "core1_application_active": false,
+    "dma_buffers_bytes": 32768,
+    "pcm_window_bytes": 57344,
+    "dsp_workspace_bytes": 55944,
+    "application_static_stack_frames_bytes": {
+      "main": 792,
+      "report_result": 1616,
+      "gap_estimate": 560,
+      "send_pending_result": 360
+    }
+  },
+  "esp32_deployed_build": {
+    "firmware": "v1.1 link_diag",
+    "arduino_cli": "1.4.1",
+    "core": "esp32:esp32@3.3.12",
+    "fqbn": "esp32:esp32:nodemcu-32s",
+    "deployment_image_name": "gap_receiver-v1.1-nodemcu-32s-merged.bin",
+    "image_distributed": false,
+    "image_sha256": "36610897ee2f78f5fe8153d043df68cbb00b5a7cf040c7d3475dc2b3d77cda6b",
+    "write_offset": "0x0",
+    "program_bytes": 277624,
+    "global_bytes": 22932
+  },
+  "historical_combo_reference": {
+    "background_cycle_ms": 188,
+    "moving_phone_cycle_ms": 203,
+    "matched_conditions": false,
+    "source": "earlier team combo reports; contextual reference supplied in the current handoff"
+  },
+  "bandwidth_calculated_not_measured": {
+    "sample_rate_hz": 48000,
+    "i2s_bit_clock_hz": 3072000,
+    "four_data_lines_bits_per_s": 12288000,
+    "dma_bytes_per_s": 1536000,
+    "pcm16_seven_channels_bytes_per_s": 672000,
+    "uart_baud": 115200,
+    "uart_8n1_bytes_per_s": 11520,
+    "b_max_bytes": 49,
+    "b_max_wire_ms": 4.253472222222221,
+    "ack_max_bytes": 45,
+    "ack_max_wire_ms": 3.90625
+  },
+  "delay_target_ms": [
+    200,
+    500
+  ],
+  "delay_target_met": false,
+  "physical_angle_ground_truth_available": false,
+  "physical_usb_disconnect_test_performed": false,
+  "cold_start_test_performed": false,
+  "source_hashes": {
+    "trial-01-link-recovery/events.jsonl": "5fa7f552b069e53c1d659316e737b6d10790723f52e60ffd4686217d156a08d5",
+    "analysis-trial-01-link-recovery/summary.json": "db7f459a2965fe1cba38c6442ac8547ca98e205208ef0c3a3d5ee7c565b90edf",
+    "trial-02-phone/events.jsonl": "569678758b0f3192af8f77ba377ade268549d711d9992ee2ae13a424aa3004d0",
+    "analysis-trial-02-phone-full/summary.json": "e8ed9b9bdd484fa458b70de61a22570955d0555ded1f52f888d077f6b4f65dba",
+    "trial-03-flash-warmup/events.jsonl": "5adb0cd349972891e9e01755271d4fb381626d633ed9ad8bfca931890faba196",
+    "analysis-trial-03-flash-warmup/summary.json": "56223ac454e971b98a452b3d6d1109f05bd9265579ea32ff0ca10eabdfd04fc4",
+    "trial-04-flash-reboot/events.jsonl": "c9fe4f2eb7f7964dab78a78d508ffb901a67efe55f9700adeaa21469aac993d2",
+    "analysis-trial-04-flash-reboot/summary.json": "5ff9e303ac8447963ad86e79c61de1b1f0d89cb4147edc4808604bd2d65e6791",
+    "trial-05-no-pico-client/events.jsonl": "de303f3bece0c47b7fb6d8cafb4e808e01f04e2ef379bfcada5a197a6dc42065",
+    "pico-task-breakdown.json": "5c88b152cd10fb89ba14bd52fb1af4aed8ed91428ed27a62e15d4e6eaf4483e7",
+    "flash-link-v0.2/resource-audit.json": "8a951b95556f3cc1442d1b8a1a35e1981420978129940f48a891e3bfc3f20177",
+    "public/esp32-link/gap_receiver/firmware/BUILD.json": "e7db3270cf5658f9060f7c35652077d9f4521fb1e32f13101fde70128d3a7a48"
+  },
+  "privacy": "Only aggregate/derived telemetry; no raw microphone audio, session identifiers, USB serial numbers or personal absolute paths"
+}

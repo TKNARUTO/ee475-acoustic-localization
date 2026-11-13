@@ -1,0 +1,4 @@
+{
+  "enabled": false,
+  "description": "Enable only after the stage 11 UART receiver is installed and the three wires are checked. No motor commands."
+}

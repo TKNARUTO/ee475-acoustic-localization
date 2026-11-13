@@ -1,0 +1,22 @@
+{
+  "firmware": "v1.1 link_diag",
+  "arduino_cli": "1.4.1",
+  "core": "esp32:esp32@3.3.12",
+  "fqbn": "esp32:esp32:nodemcu-32s",
+  "image_sha256": "36610897ee2f78f5fe8153d043df68cbb00b5a7cf040c7d3475dc2b3d77cda6b",
+  "write_offset": "0x0",
+  "source_sha256": {
+    "gap_receiver.ino": "41171af994e2197694b6fd839a449264a78b898b2d6110546c5de5f144132b5c",
+    "gap_protocol.h": "dbb874e2a8c24217f3f671c963c706da757ce4f024749db9c0dad8e915c630c2",
+    "gap_self_tests.h": "4d47fe887803826561411cbf0fd6c7d93faae7ccb58c945b1661906296e581af",
+    "gap_diagnostics.h": "bb50b42f44344a1cc95dee1f65f286fdf1a75e4f31adf8f607141051c3c94b0a"
+  },
+  "build_sketch_name": "sketch_nov12a.ino",
+  "canonical_source_note": "Desktop sketch source is byte-identical to gap_receiver.ino; only the sketch filename differs. A differently named rebuild need not have identical binary metadata.",
+  "program_bytes": 277624,
+  "global_bytes": 22932,
+  "verification": "Written and hash verified; current Flash trials03/04/05. No motor action.",
+  "deployment_image_name": "gap_receiver-v1.1-nodemcu-32s-merged.bin",
+  "image_distributed": false,
+  "distribution_note": "The verified deployed merged image is retained in the private local archive because it embeds machine build paths. Canonical source and exact platform/build metadata are public; rebuild with Arduino. No replacement firmware was flashed for packaging."
+}

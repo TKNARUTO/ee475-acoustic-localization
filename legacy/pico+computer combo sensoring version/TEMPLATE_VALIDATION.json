@@ -1,0 +1,84 @@
+{
+  "checked_at_utc": "2026-11-13T01:47:50.607072+00:00",
+  "passed": true,
+  "offline_checks": [
+    {
+      "name": "active_python_syntax",
+      "passed": true
+    },
+    {
+      "name": "launcher_source_check",
+      "passed": true
+    },
+    {
+      "name": "ram_only_image",
+      "passed": true
+    },
+    {
+      "name": "receive_only_controls",
+      "passed": true
+    },
+    {
+      "name": "packet_faults",
+      "passed": true
+    },
+    {
+      "name": "gap_model",
+      "passed": true
+    }
+  ],
+  "firmware_sha256": "76470847618d44065001eba3615cf49e19e858a27839dd09543700e7d8471151",
+  "bridge_enabled": false,
+  "hardware_accessed": false,
+  "phone_modified": false,
+  "immutable_files_compared_to_original_zip": 52,
+  "original_zip_sha256": "2fae8fad70b2501d3766234f89c724936717bccbcb042dd43b2300fd8b4a53d9",
+  "not_established": [
+    "exact v0.6 build-source reproduction",
+    "physical angle accuracy",
+    "range",
+    "new-PC installation",
+    "phone behavior"
+  ],
+  "zip_check": "Every member is verified after packaging; final ZIP hash is recorded outside the ZIP.",
+  "last_packaging_check_at_utc": "2026-11-13T02:06:47.991467+00:00",
+  "documentation_newline_repair": {
+    "files": [
+      {
+        "relative_path": "docs/HARDWARE_EN.md",
+        "old_sha256": "90f3ba0e3faa3473e0efdb89eb94a46c828651f7bc75358e2683830a03d97015",
+        "sha256": "23232e48d3fe08e9cf642ff8a6d3e8091ec85cdc79c7f75de5d8f7848d4b1abd",
+        "old_bytes": 1957,
+        "bytes": 1892,
+        "double_crlf_count": 31,
+        "line_ending": "LF",
+        "non_newline_content_unchanged": true
+      },
+      {
+        "relative_path": "docs/USER_GUIDE_EN.md",
+        "old_sha256": "f32820c104169262e76d8ff610a19e2a0c27e82bff4974f53b9ed44d5da4185a",
+        "sha256": "cf0e9d5dfecd13055ac75f8ace4e98b6b857bf4264b8d268ff4fed8fea4327d2",
+        "old_bytes": 1636,
+        "bytes": 1611,
+        "double_crlf_count": 11,
+        "line_ending": "LF",
+        "non_newline_content_unchanged": true
+      },
+      {
+        "relative_path": "SEN0325-Pico-Setup/firmware/README_EN.md",
+        "old_sha256": "6080d87c45234275856356976ea7f5fb26fbf0cf7af67cfa3cb765803c035db7",
+        "sha256": "55f1671a263f086e17f2edf0e62cb61b333587feb89591cff85fc2f0f234f893",
+        "old_bytes": 1342,
+        "bytes": 1317,
+        "double_crlf_count": 11,
+        "line_ending": "LF",
+        "non_newline_content_unchanged": true
+      }
+    ],
+    "scope": "Only line endings in three English documents; source and binaries unchanged.",
+    "behavior_checks_rerun": false,
+    "behavior_checks_evidence": "The six offline groups recorded at checked_at_utc above are retained; not rerun for this newline-only repair.",
+    "immutable_files_verified": 52,
+    "zip_members_verified": 100
+  }
+}

@@ -21,7 +21,7 @@ public final class LoopService extends Service {
     private final ExecutorService worker=Executors.newSingleThreadExecutor();
     private AudioLoader.Audio audio;private AudioTrack track;private AudioManager manager;
     private AudioFocusRequest focus;private boolean focusHeld,foreground,resumeAfterFocus;
-    public Listener listener;public boolean loading,playing,normalize;public String title="Default 20 kHz beacon",status="Choose an audio file or use the included beacon";
+    public Listener listener;public boolean loading,playing,normalize;public String title="HF2 gap beacon | 18-22 kHz",status="Choose an audio file or use the included beacon";
     public double gain=1.;
     @Override public void onCreate() {
         super.onCreate();manager=(AudioManager)getSystemService(AUDIO_SERVICE);
@@ -58,6 +58,15 @@ public final class LoopService extends Service {
         status="Ready; the next play starts at the beginning";publish();
     }
     private AudioAttributes attributes(){return new AudioAttributes.Builder().setUsage(AudioAttributes.USAGE_MEDIA).setContentType(AudioAttributes.CONTENT_TYPE_MUSIC).build();}
+    private InputStream openSource(String source)throws IOException{
+        if(source==null||source.length()==0||"cache".equals(source))return getAssets().open("gap-beacon.wav");
+        if(source.startsWith("asset:")){
+            String name=source.substring(6);
+            if(!name.equals("gap-beacon.wav"))throw new IOException("Unknown bundled beacon");
+            return getAssets().open(name);
+        }
+        return getContentResolver().openInputStream(Uri.parse(source));
+    }
     private void load(String source,String name) {
         if(loading)return;pauseNow(true);releaseTrack();loading=true;status="Loading audio locally…";publish();
         worker.execute(()->{
@@ -65,9 +74,10 @@ public final class LoopService extends Service {
                 File selected=new File(getFilesDir(),"selected-audio.bin");
                 File incoming=new File(getCacheDir(),"incoming-audio.bin");
                 File file;
+                boolean missingCache="cache".equals(source)&&!selected.isFile();
                 if("cache".equals(source)&&selected.isFile())file=selected;
                 else {
-                    InputStream input=(source==null||source.length()==0)?getAssets().open("default-beacon.wav"):getContentResolver().openInputStream(Uri.parse(source));
+                    InputStream input=openSource(source);
                     if(input==null)throw new IOException("Cannot open the selected file");
                     try(InputStream in=input;OutputStream out=new FileOutputStream(incoming)) {
                         byte[] buffer=new byte[65536];int count,total=0;
@@ -81,7 +91,7 @@ public final class LoopService extends Service {
                         byte[] buffer=new byte[65536];int n;while((n=in.read(buffer))>=0)out.write(buffer,0,n);
                     }
                 }
-                String display=(name==null||name.isEmpty())?"Default 20 kHz beacon":name;
+                String display=(missingCache||name==null||name.isEmpty())?"HF2 gap beacon | 18-22 kHz":name;
                 main.post(()->{
                     audio=decoded;title=display;loading=false;gain=PcmGain.gain(audio.pcm,normalize);status="Ready · looping is always on";
                     getSharedPreferences("player",0).edit().putString("name",title).putBoolean("has_cached",true).apply();

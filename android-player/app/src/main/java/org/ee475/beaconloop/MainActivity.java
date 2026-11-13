@@ -17,14 +17,17 @@ import android.widget.*;
 
 public final class MainActivity extends Activity {
     private LoopService service;private boolean bound,updating;
-    private TextView file,status,details;private Button choose,play;private CheckBox normalize;
+    private TextView file,status,details;private Button gap,choose,play;private CheckBox normalize;
     private int dp(int n){return Math.round(n*getResources().getDisplayMetrics().density);}
     private final ServiceConnection connection=new ServiceConnection(){
         @Override public void onServiceConnected(ComponentName name,IBinder binder){
             service=((LoopService.LocalBinder)binder).service();bound=true;service.listener=()->refresh();
             if(!service.ready()&&!service.loading) {
                 boolean cached=getSharedPreferences("player",0).getBoolean("has_cached",false);
-                command(LoopService.LOAD,cached?"cache":null,getSharedPreferences("player",0).getString("name","Default 20 kHz beacon"));
+                String savedName=getSharedPreferences("player",0).getString("name","HF2 gap beacon | 18-22 kHz");
+                boolean retiredBuiltin="Default 20 kHz beacon".equals(savedName)||"19-21 kHz beacon".equals(savedName);
+                command(LoopService.LOAD,cached&&!retiredBuiltin?"cache":"asset:gap-beacon.wav",
+                    cached&&!retiredBuiltin?savedName:"HF2 gap beacon | 18-22 kHz");
             }
             refresh();
         }
@@ -37,9 +40,10 @@ public final class MainActivity extends Activity {
         layout.setOnApplyWindowInsetsListener((view,insets)->{view.setPadding(dp(24),dp(24)+insets.getSystemWindowInsetTop(),dp(24),dp(24)+insets.getSystemWindowInsetBottom());return insets;});
         ScrollView scroll=new ScrollView(this);scroll.setFillViewport(true);scroll.addView(layout);setContentView(scroll);
         TextView heading=text("Beacon Loop",30);heading.setTypeface(null,Typeface.BOLD);layout.addView(heading);
-        TextView sub=text("Local audio. One file. Continuous playback.",15);layout.addView(sub);space(layout,30);
-        file=text("Default 20 kHz beacon",20);file.setTypeface(null,Typeface.BOLD);layout.addView(file);space(layout,10);
+        TextView sub=text("Local audio. HF2 gap beacon or your own file.",15);layout.addView(sub);space(layout,30);
+        file=text("HF2 gap beacon | 18-22 kHz",20);file.setTypeface(null,Typeface.BOLD);layout.addView(file);space(layout,10);
         details=text("Loading…",14);layout.addView(details);space(layout,24);
+        gap=button("Use HF2 gap beacon",false);layout.addView(gap,new LinearLayout.LayoutParams(-1,dp(56)));space(layout,12);
         choose=button("Choose audio file",false);layout.addView(choose,new LinearLayout.LayoutParams(-1,dp(56)));space(layout,12);
         play=button("Play loop",true);layout.addView(play,new LinearLayout.LayoutParams(-1,dp(60)));space(layout,20);
         normalize=new CheckBox(this);normalize.setText("Gentle level normalization (optional)");normalize.setTextColor(Color.rgb(210,229,235));normalize.setTextSize(14);layout.addView(normalize);
@@ -47,6 +51,7 @@ public final class MainActivity extends Activity {
         status=text("Ready",16);status.setTextColor(Color.rgb(101,222,196));layout.addView(status);
         LinearLayout.LayoutParams filler=new LinearLayout.LayoutParams(1,0,1);layout.addView(new Space(this),filler);
         layout.addView(text("Use the phone's media volume keys.\nUse the same beacon file/reference in the PC receiver.\nNo network or microphone access.",13));
+        gap.setOnClickListener(view->command(LoopService.LOAD,"asset:gap-beacon.wav","HF2 gap beacon | 18-22 kHz"));
         choose.setOnClickListener(view->{Intent intent=new Intent(Intent.ACTION_OPEN_DOCUMENT).setType("audio/*").addCategory(Intent.CATEGORY_OPENABLE)
             .addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION|Intent.FLAG_GRANT_PERSISTABLE_URI_PERMISSION).putExtra(Intent.EXTRA_LOCAL_ONLY,true);startActivityForResult(intent,10);});
         play.setOnClickListener(view->command(LoopService.TOGGLE,null,null));
@@ -62,7 +67,8 @@ public final class MainActivity extends Activity {
         if(uri!=null)intent.putExtra("uri",uri);if(name!=null)intent.putExtra("name",name);
         if(LoopService.STOP.equals(action))startService(intent);else startForegroundService(intent);}
     private void refresh(){if(service==null)return;updating=true;file.setText(service.title);details.setText(service.details());status.setText(service.status);
-        play.setText(service.playing?"Pause":"Play loop");play.setEnabled(service.ready()&&!service.loading);choose.setEnabled(!service.loading);
+        play.setText(service.playing?"Pause":"Play loop");play.setEnabled(service.ready()&&!service.loading);
+        boolean idle=!service.loading;choose.setEnabled(idle);gap.setEnabled(idle);
         normalize.setChecked(service.normalize);normalize.setEnabled(!service.loading&&!service.playing);updating=false;}
     @Override protected void onStart(){super.onStart();bindService(new Intent(this,LoopService.class),connection,BIND_AUTO_CREATE);}
     @Override protected void onStop(){if(bound){service.listener=null;unbindService(connection);bound=false;service=null;}super.onStop();}

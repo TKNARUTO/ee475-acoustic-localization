@@ -1,3 +1,4 @@
-CURRENT PHONE INPUT: HF2-20kHz/01_LOCATE_20kHz_19-21kHz.mp3
-Use the same file/reference in the Windows receiver. Pure TONE probes do not authorize direction.
-Earlier audible and 16–18kHz audio is under ../../legacy/audio. The default file has not been changed.
+CURRENT PHONE INPUT: HF2-gap-test/01_LOCATE_18-22kHz_43ms-gap.wav (or matching MP3)
+English: README_EN.md
+Chinese: README_ZH.md
+The independent Pico reference is fixed; the PC is a passive monitor.

@@ -1,9 +1,0 @@
-{
-  "path": "C:\\Users\\33296\\Desktop\\\u5de5\u7a0b\u9879\u76ee\\EE475\\stages\\04-latency-reduction\\experiments\\fast-crc-4096-1024-RAM.uf2",
-  "sha256": "5a302c59885fda054b08962c3f2d283a7cb38f7ce0d4f0d72a23591b2875d9c2",
-  "blocks": 427,
-  "start": "0x20000000",
-  "end_exclusive": "0x2001ab00",
-  "sram_only": true,
-  "flash_payload_blocks": 0
-}

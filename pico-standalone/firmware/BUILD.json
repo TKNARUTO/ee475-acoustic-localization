@@ -1,0 +1,30 @@
+{
+  "firmware": "v0.2-link_diag",
+  "platform": "Pico SDK 2.3.1 / RP2040 / pico",
+  "flags": {
+    "PICO_NO_FLASH": false,
+    "GAP_INTEGER_FFT": true,
+    "GAP_INTEGER_FAST": true,
+    "GAP_WHITEN_FLOAT": false,
+    "GAP_MAG_CACHE": false
+  },
+  "source_sha256": {
+    "CMakeLists.txt": "1ca449d74978a3958dbbb3403bd33a5b192e276d49da8e7578daa9ea060b42b4",
+    "main.c": "b535fa5c31d3b6d1e762b9c1f61327b1a49687a3983796ee11b3d4bd327621a3",
+    "sen0325_i2s.pio": "485286e52eb8bb51cb62d9f20d6d269d9f551ec7ffc65389c77d9cfd111a3681",
+    "standalone_link.h": "3398ec9fbf5fd738a70abfab63fbb4bbe8b88fa93bc8cfe3929dfa43163877c2",
+    "dsp/gap_dsp.c": "cdc12592adbdf54e6fe09dae06bc31f27fbf9aa05fe7eecbdb9dc3b10cb1ed00",
+    "dsp/gap_dsp.h": "e0b01ae91143aadfee73b889df7c94937b122d690356cb0661bf92c0f6e8254c",
+    "dsp/gap_fast_float.h": "19aadf19e155834421748db3b4ac9c6346c5de2cf2cfbb98e11f2188a659dbd7",
+    "dsp/gap_integer_fft.h": "447cea12d559b8048917810778bf098704036d4ac946911ca5a3031d754fbca5",
+    "dsp/gap_integer_tables.h": "1c908bacbdafb72ac0020939dbe5a63dfb2d131a00858f253a0d832be863ec26",
+    "dsp/gap_tables.h": "68c06c04eb37f3b2c798b9c3e51e224e3ea66a8ee6f7d6f2a209e88b81711df8"
+  },
+  "files": {
+    "pico_gap_standalone-v0.2.elf": "0b31dccf1297efc80a26c3ffe84d228204d2bde504392bab0789df544ac59e08",
+    "pico_gap_standalone-v0.2.uf2": "11958e9310926e856f01359c10c4832cffc046cb64a8edebe675b76e3984caa0",
+    "resource-audit.json": "ff2dbaf392d809e40511e7fca889df94670f26ced236bebc171a3aabc08a749b"
+  },
+  "verification": "picotool load -v completed; Flash trials03/04/05, software reboot; physical power cycle not measured",
+  "elf_distribution": "Debug paths stripped with arm-none-eabi-objcopy --strip-debug; objcopy -O binary payload identical to original; original debug ELF retained privately. UF2 unchanged."
+}

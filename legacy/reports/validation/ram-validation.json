@@ -1,9 +1,0 @@
-﻿{
-  "path": "C:\\Users\\33296\\Desktop\\工程项目\\EE475\\SEN0325-Pico-Setup\\firmware\\sen0325_setup-RAM.uf2",
-  "sha256": "b10c5203c44cb7dff7ba48007f787e13fe8327fa6068835a0d74e92aa9e4350c",
-  "blocks": 421,
-  "start": "0x20000000",
-  "end_exclusive": "0x2001a500",
-  "sram_only": true,
-  "flash_payload_blocks": 0
-}

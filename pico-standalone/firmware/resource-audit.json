@@ -1,0 +1,273 @@
+{
+  "backend": "integer_q15_fast",
+  "cmake_integer_fft": true,
+  "cmake_integer_fast": true,
+  "cmake_whiten_float": false,
+  "cmake_mag_cache": false,
+  "firmware": "v0.2-link_diag",
+  "image_kind": "flash",
+  "uf2_sha256": "11958e9310926e856f01359c10c4832cffc046cb64a8edebe675b76e3984caa0",
+  "uf2_bytes": 137728,
+  "uf2_blocks": 269,
+  "payload_start": "0x10000000",
+  "payload_end_exclusive": "0x10010d00",
+  "sections": {
+    ".boot2": {
+      "bytes": 256,
+      "address": "0x10000000"
+    },
+    ".text": {
+      "bytes": 54280,
+      "address": "0x10000100"
+    },
+    ".rodata": {
+      "bytes": 9948,
+      "address": "0x1000d508"
+    },
+    ".binary_info": {
+      "bytes": 36,
+      "address": "0x1000fbe4"
+    },
+    ".xip_ram": {
+      "bytes": 0,
+      "address": "0x15000000"
+    },
+    ".ram_vector_table": {
+      "bytes": 192,
+      "address": "0x20000000"
+    },
+    ".uninitialized_data": {
+      "bytes": 32,
+      "address": "0x200000c0"
+    },
+    ".data": {
+      "bytes": 4208,
+      "address": "0x200000e0"
+    },
+    ".tdata": {
+      "bytes": 0,
+      "address": "0x20001150"
+    },
+    ".tbss": {
+      "bytes": 0,
+      "address": "0x20001150"
+    },
+    ".tbss_space": {
+      "bytes": 0,
+      "address": "0x20001150"
+    },
+    ".bss": {
+      "bytes": 153052,
+      "address": "0x20001150"
+    },
+    ".tls0": {
+      "bytes": 0,
+      "address": "0x2002672c"
+    },
+    ".tls1": {
+      "bytes": 0,
+      "address": "0x2002672c"
+    },
+    ".persistent_data": {
+      "bytes": 0,
+      "address": "0x2002672c"
+    },
+    ".dummy_pre_heap": {
+      "bytes": 0,
+      "address": "0x2002672c"
+    },
+    ".heap": {
+      "bytes": 2048,
+      "address": "0x2002672c"
+    },
+    ".scratch_x": {
+      "bytes": 0,
+      "address": "0x20040000"
+    },
+    ".scratch_y": {
+      "bytes": 0,
+      "address": "0x20041000"
+    },
+    ".stack_dummy": {
+      "bytes": 4096,
+      "address": "0x20041000"
+    },
+    ".comment": {
+      "bytes": 69,
+      "address": "0x0"
+    },
+    ".ARM.attributes": {
+      "bytes": 42,
+      "address": "0x0"
+    }
+  },
+  "heap_start": "0x2002672c",
+  "heap_capacity_linker": 104660,
+  "core0_stack_reserved": 4096,
+  "core1_stack_reserved": 0,
+  "application_stack_frames": {
+    "time_us_32": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "uart_irq": {
+      "bytes": 32,
+      "kind": "static"
+    },
+    "capture_stop": {
+      "bytes": 24,
+      "kind": "static"
+    },
+    "capture_irq": {
+      "bytes": 40,
+      "kind": "static"
+    },
+    "usb_line": {
+      "bytes": 24,
+      "kind": "static"
+    },
+    "uart_send": {
+      "bytes": 32,
+      "kind": "static"
+    },
+    "uart_poll": {
+      "bytes": 240,
+      "kind": "static"
+    },
+    "report_result": {
+      "bytes": 1616,
+      "kind": "static"
+    },
+    "send_pending_result": {
+      "bytes": 360,
+      "kind": "static"
+    },
+    "invalid_result": {
+      "bytes": 32,
+      "kind": "static"
+    },
+    "capture_start.part.0": {
+      "bytes": 72,
+      "kind": "static"
+    },
+    "main": {
+      "bytes": 792,
+      "kind": "static"
+    },
+    "gap_estimate": {
+      "bytes": 560,
+      "kind": "static"
+    },
+    "gap_reset": {
+      "bytes": 8,
+      "kind": "static"
+    },
+    "gap_workspace_bytes": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "gap_fft_backend_name": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "gap_set_clock_us": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "gap_get_profile": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "gap_reason_name": {
+      "bytes": 0,
+      "kind": "static"
+    }
+  },
+  "stack_high_water_measured": false,
+  "cpu_utilization_measured": false,
+  "core0_hz": 120000000,
+  "core1_application_active": false,
+  "sample_rate": 48000,
+  "channels": 7,
+  "window_frames": 4096,
+  "dma_block_frames": 512,
+  "dma_buffers_bytes": 32768,
+  "pcm_window_bytes": 57344,
+  "dsp_workspace_bytes": 55944,
+  "source_sha256": {
+    "CMakeLists.txt": "1ca449d74978a3958dbbb3403bd33a5b192e276d49da8e7578daa9ea060b42b4",
+    "main.c": "b535fa5c31d3b6d1e762b9c1f61327b1a49687a3983796ee11b3d4bd327621a3",
+    "sen0325_i2s.pio": "485286e52eb8bb51cb62d9f20d6d269d9f551ec7ffc65389c77d9cfd111a3681",
+    "standalone_link.h": "3398ec9fbf5fd738a70abfab63fbb4bbe8b88fa93bc8cfe3929dfa43163877c2",
+    "dsp/gap_dsp.c": "cdc12592adbdf54e6fe09dae06bc31f27fbf9aa05fe7eecbdb9dc3b10cb1ed00",
+    "dsp/gap_dsp.h": "e0b01ae91143aadfee73b889df7c94937b122d690356cb0661bf92c0f6e8254c",
+    "dsp/gap_fast_float.h": "19aadf19e155834421748db3b4ac9c6346c5de2cf2cfbb98e11f2188a659dbd7",
+    "dsp/gap_integer_fft.h": "447cea12d559b8048917810778bf098704036d4ac946911ca5a3031d754fbca5",
+    "dsp/gap_integer_tables.h": "1c908bacbdafb72ac0020939dbe5a63dfb2d131a00858f253a0d832be863ec26",
+    "dsp/gap_tables.h": "68c06c04eb37f3b2c798b9c3e51e224e3ea66a8ee6f7d6f2a209e88b81711df8"
+  },
+  "numeric_options_evidence_sha256": "6905e521805af872819f46a16415ece342ec3845b59a6ac3fb65d2df55173eb7",
+  "deployment_performed_by_builder": false,
+  "native_main_tests": {
+    "passed": true,
+    "assertions": 107,
+    "max_test_gap_line_bytes": 699,
+    "gap_example": {
+      "firmware": "v0.2-link_diag",
+      "backend": "integer_q15_fast",
+      "seq": 4294967295,
+      "valid": 0,
+      "fit_valid": 1,
+      "confirmed": 1,
+      "angle_deg": 360.0,
+      "quality": 1.0,
+      "code_channels": 255,
+      "capture_us": 4294967295,
+      "capture_wait_us": 4294967295,
+      "unpack_total_us": 4294967295,
+      "max_block_us": 4294967295,
+      "dsp_us": 4294967295,
+      "dsp_wall_us": 4294967295,
+      "cycle_us": 4294967295,
+      "result_interval_us": 4294967295,
+      "age_ms": 4294967295,
+      "reason": "stale_measurement",
+      "uart_ready": 1,
+      "uart_seq": 7,
+      "tx_result_seq": 4294967295,
+      "tx_age_ms": 4294967295,
+      "tx_valid": 4294967295,
+      "tx_angle_cdeg": 4294967295,
+      "tx_quality": 4294967295,
+      "ack_seq": 4294967295,
+      "ack_roundtrip_us": 4294967295,
+      "ack_status": 4294967295,
+      "dma_drop": 4294967295,
+      "usb_drop": 4294967295
+    },
+    "main_sha256": "b535fa5c31d3b6d1e762b9c1f61327b1a49687a3983796ee11b3d4bd327621a3",
+    "compile_command": [
+      "<local-build>/gcc.exe",
+      "-std=c11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "<local-build>/source",
+      "<local-build>/native-main-communication.c",
+      "-lm",
+      "-o",
+      "<local-build>/native-main-communication.exe"
+    ],
+    "compile_warnings": "<local-build>/native-main-communication.c:51:26: warning: \u2018confirmation\u2019 defined but not used [-Wunused-variable]\n static sl_confirmation_t confirmation;\n                          ^\n",
+    "test_method": "Actual main.c functions extracted verbatim; UART/time/USB hardware mocked; actual uart_send additionally exercised with register mock."
+  },
+  "legacy_link_tests": {
+    "checks": 41,
+    "failures": 0
+  },
+  "artifact_sha256": {
+    "pico_gap_standalone.elf": "9e9bd81e4f735e3beb25a779c5252e3e0db8bf5d3f32089517a71e155ea3f1bc",
+    "pico_gap_standalone.elf.map": "a612d19100a8762b23bbf6bb258ed6c1a845fa4513582692fa77b023cc2d55ff",
+    "pico_gap_standalone.uf2": "11958e9310926e856f01359c10c4832cffc046cb64a8edebe675b76e3984caa0"
+  }
+}

@@ -1,1 +1,0 @@
-Historical test source for the rejected angular-jump/dual-estimator policy. Not a current runnable regression. The hard vetoes were removed at user request. See reports/delay-diagnosis-2026-10-22/DELAY_DIAGNOSIS_ZH.md.

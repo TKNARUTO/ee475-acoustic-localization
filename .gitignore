@@ -1,9 +1,7 @@
-# Local runtimes, machine configuration, generated builds
 .venv/
 __pycache__/
 *.py[cod]
 .vscode/
-*.lnk
 **/build/
 **/build-*/
 android-player/toolchain.json
@@ -11,41 +9,21 @@ android-player/toolchain.json
 **/*.jks
 **/*.keystore
 **/*.pem
+**/*.key
 **/*.p12
 .env
 .env.*
-!.env.example
-# Original microphone recordings and runtime telemetry remain local
 **/logs/
 **/runtime-logs/
 **/captures/
 **/trials/
 **/evidence/
 *.npz
-**/launcher-*.txt
-**/phone-trial-console.txt
-**/phone-trial-errors.txt
-**/desktop-instance.json
-**/desktop-restart.json
-# Original local inventory and delivery copies
-delivery/
-00_全部文件索引.txt
-FILE_INDEX.txt
-docs/LOCAL_FILE_INDEX.csv
-docs/LOCAL_FILE_INDEX.json
-docs/LOCAL_ARCHIVE.json
-docs/LEGACY_MIGRATION.csv
-docs/LEGACY_MIGRATION.json
-legacy/migration-in-progress.json
-# Old binary packages stay in the complete local archive. Two reviewed code
-# snapshots remain because repeatable checks depend on them.
-*.zip
-!legacy/stages/01-16-18kHz/before-stage-1.zip
-!stages/06-joint-delay/backups/before-RX4.zip
-legacy/releases/
-legacy/archive/
-legacy/workspace-materials/
-legacy/maintenance/
+*.npy
+*.jsonl
+*.log
+*.lnk
 *.apk.idsig
-
-legacy/reports/slack-delivery-status.json
+*.zip
+!legacy/pico+computer combo sensoring version.zip
+delivery/

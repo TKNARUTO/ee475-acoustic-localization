@@ -1,0 +1,11 @@
+.venv/
+**/__pycache__/
+**/*.pyc
+**/logs/
+**/build*/
+**/beacon_profiles/
+**/toolchain.json
+**/*.keystore
+**/*.jks
+**/.env*
+local-checks/

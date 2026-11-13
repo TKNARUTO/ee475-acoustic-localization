@@ -1,7 +1,0 @@
-{
-  "highband_dsp.py": true,
-  "array_geometry.json": true,
-  "runtime_tuning.py": true,
-  "sen0325_simple_view.py": true,
-  "sample_unpacking_and_channel_order": true
-}
